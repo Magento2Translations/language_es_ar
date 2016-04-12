@@ -1,6 +1,6 @@
 # Spanish (español) Magento2 Language Pack (es_AR)
 This is a Language Pack generated from the [official Magento2 translations project](https://crowdin.com/project/magento-2) at [Crowdin](https://crowdin.com).
-The Spanish (español) translations used can be found [here](https://crowdin.com/project/magento-2/es).
+The Spanish (español) translations used can be found [here](https://crowdin.com/project/magento-2/es-AR).
 This translation is usefull for people living in the Argentina (Argentina).
 
 For our other language packs look at the [Magento2Translations](http://magento2translations.github.io/) page.
@@ -25,3 +25,8 @@ To use this language pack login to your admin panel and goto `Stores -> Configur
 
 # Contribute
 To help push the '*Spanish (español) Magento2 Language Pack (es_AR)*' forward please goto [this](https://crowdin.com/project/magento-2/es) crowdin page and translate the lines.
+
+# Authors
+The translations are done by the [official Magento2 translations project](https://crowdin.com/project/magento-2).
+
+Code generation is sponsored by [Wijzijn.Guru](http://www.wijzijn.guru/).
