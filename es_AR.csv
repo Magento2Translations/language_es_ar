@@ -1237,14 +1237,21 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "Value index is not specified for an option.","Valor índice no se especifica para una opción.",module,Magento_ConfigurableProduct
 "Product with id ""%1"" does not contain required attribute ""%2"".","Producto con id ""%1"" no contiene el atributo obligatorio ""%2"".",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Tiene que elegir opciones para su elemento.",module,Magento_ConfigurableProduct
+"Some product variations fields are not valid.","Algunos campos de las variaciones del producto no son válidos.",module,Magento_ConfigurableProduct
+"Configuration must have specified attributes","La configuración debe tener los atributos especificados",module,Magento_ConfigurableProduct
 Options,Opciones,module,Magento_ConfigurableProduct
 "Select All","Seleccionar Todo",module,Magento_ConfigurableProduct
 Images,Imágenes,module,Magento_ConfigurableProduct
 Price,Precio,module,Magento_ConfigurableProduct
 Quantity,Cantidad,module,Magento_ConfigurableProduct
+"Create Configurations","Crear configuraciones",module,Magento_ConfigurableProduct
+"Add Products Manually","Agregue manualmente los productos",module,Magento_ConfigurableProduct
+"Current Variations","Las variaciones actuales",module,Magento_ConfigurableProduct
 Image,Imagen,module,Magento_ConfigurableProduct
 Name,Nombre,module,Magento_ConfigurableProduct
+Weight,Peso,module,Magento_ConfigurableProduct
 Actions,Acciones,module,Magento_ConfigurableProduct
+"Choose Affected Attribute Set","Elija conjunto de atributo afectado",module,Magento_ConfigurableProduct
 Confirm,Confirmar,module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
 "* Required Fields","* Campos Requeridos",module,Magento_Contact
@@ -1956,7 +1963,9 @@ OK,Aceptar,module,Magento_Catalog
 "Image Detail","Detalles de la imagen",module,Magento_Catalog
 "unselect all","deseleccionar todo",module,Magento_Catalog
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Cms
+"Select Associated Product","Seleccione artículo asociado",module,Magento_ConfigurableProduct
 Done,Listo,module,Magento_ConfigurableProduct
+"For better results, add attributes and attribute values to your products.","Para obtener mejores resultados, añadir atributos y valores de atributos a sus artículos.",module,Magento_ConfigurableProduct
 Allow,Permitir,module,Magento_Integration
 Done,Listo,module,Magento_Integration
 Save,Guardar,module,Magento_ProductVideo
