@@ -1465,12 +1465,45 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Tiene que elegir opciones para su elemento.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Algunos campos de las variaciones del producto no son válidos.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","La configuración debe tener los atributos especificados",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Este grupo contiene atributos utilizados en artículos configurables. Páselos a otro grupo y vuelva a intentarlo.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Este atributo se utiliza en artículos configurables. No es posible eliminarlo del conjunto de atributos.",module,Magento_ConfigurableProduct
+"Associated Products","Artículos asociados",module,Magento_ConfigurableProduct
+"Step 2: Attribute Values","Paso 2: Valores de atributo",module,Magento_ConfigurableProduct
+"Select values from each attribute to include in this product. Each unique combination of values creates a unigue product SKU.","Seleccione los valores de cada atributo para incluir en este producto. Cada combinación única de valores crea un SKU de producto único.",module,Magento_ConfigurableProduct
+"Sort Variations","Organizar variaciones",module,Magento_ConfigurableProduct
 Options,Opciones,module,Magento_ConfigurableProduct
 "Select All","Seleccionar Todo",module,Magento_ConfigurableProduct
+"Deselect All","Deseleccionar todo",module,Magento_ConfigurableProduct
+"Remove Attribute","Eliminar atributo",module,Magento_ConfigurableProduct
+"Save Option","Guardar opción",module,Magento_ConfigurableProduct
+"Remove Option","Eliminar opción",module,Magento_ConfigurableProduct
+"Create New Value","Crear un nuevo valor",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price, and Quantity","Paso 3: Conjunto de Imágenes, Precio, y Cantidades",module,Magento_ConfigurableProduct
 Images,Imágenes,module,Magento_ConfigurableProduct
+"Apply single set of images to all SKUs","Aplicar un único conjunto de imágenes para todas las SKU",module,Magento_ConfigurableProduct
+"Apply unique images by attribute to each SKU","Aplicar imágenes únicas de atributo para cada SKU",module,Magento_ConfigurableProduct
+"Skip image uploading at this time","Omitir carga de imágenes en este momento",module,Magento_ConfigurableProduct
+"Browse Files...","Buscar archivos...",module,Magento_ConfigurableProduct
+"Browse to find or drag image here","Selecciona o arrastra la imagen aquí",module,Magento_ConfigurableProduct
+"Remove image","Quitar imagen",module,Magento_ConfigurableProduct
+Hidden,Oculto,module,Magento_ConfigurableProduct
+"Alt Text","Texto alternativo",module,Magento_ConfigurableProduct
+Role,Rol,module,Magento_ConfigurableProduct
+"Hide from Product Page","Ocultar de la página de producto",module,Magento_ConfigurableProduct
+"Select attribute","Seleccione el atributo",module,Magento_ConfigurableProduct
+Select,Seleccionar,module,Magento_ConfigurableProduct
 Price,Precio,module,Magento_ConfigurableProduct
+"Apply single price to all SKUs","Aplicar precio único para todas las SKU",module,Magento_ConfigurableProduct
+"Apply unique prices by attribute to each SKU","Aplicar precios únicos por atributos para cada SKU",module,Magento_ConfigurableProduct
+"Skip price at this time","Omitir precio en este momento",module,Magento_ConfigurableProduct
 Quantity,Cantidad,module,Magento_ConfigurableProduct
+"Apply single quantity to each SKUs","Aplicar una cantidad única a cada SKU",module,Magento_ConfigurableProduct
+"Apply unique quantity by attribute to each SKU","Aplicar una cantidad única de atributo para cada SKU",module,Magento_ConfigurableProduct
+"Skip quantity at this time","Omitir cantidad en este momento",module,Magento_ConfigurableProduct
+"Step 1: Select Attributes","Paso 1: Seleccionar atributos",module,Magento_ConfigurableProduct
+"Selected Attributes:","Los atributos seleccionados:",module,Magento_ConfigurableProduct
+"Step 4: Summary","Paso 4: Resumen",module,Magento_ConfigurableProduct
+"Edit Configurations","Editar las configuraciones",module,Magento_ConfigurableProduct
 "Create Configurations","Crear configuraciones",module,Magento_ConfigurableProduct
 "Add Products Manually","Agregue manualmente los productos",module,Magento_ConfigurableProduct
 "Current Variations","Las variaciones actuales",module,Magento_ConfigurableProduct
@@ -1478,6 +1511,11 @@ Image,Imagen,module,Magento_ConfigurableProduct
 Name,Nombre,module,Magento_ConfigurableProduct
 Weight,Peso,module,Magento_ConfigurableProduct
 Actions,Acciones,module,Magento_ConfigurableProduct
+"Upload Image","Subir imagenes",module,Magento_ConfigurableProduct
+"Upload image","Subir imagen",module,Magento_ConfigurableProduct
+"No Image","No hay imagen",module,Magento_ConfigurableProduct
+"Choose a different Product","Elegir un producto diferente",module,Magento_ConfigurableProduct
+"Remove Product","Eliminar artículo",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Elija conjunto de atributo afectado",module,Magento_ConfigurableProduct
 Confirm,Confirmar,module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
