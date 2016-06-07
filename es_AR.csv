@@ -980,6 +980,11 @@ Configuration,Configuración,module,Magento_Config
 "Choose an Option...","Elegir una opción...",module,Magento_ConfigurableProduct
 "This attribute is used in configurable products.","Este atributo se utiliza en artículos configurables.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Algunos campos de las variaciones del producto no son válidos.",module,Magento_ConfigurableProduct
+"This group contains attributes used in configurable products. Please move these attributes to another group and try again.","Este grupo contiene atributos utilizados en artículos configurables. Páselos a otro grupo y vuelva a intentarlo.",module,Magento_ConfigurableProduct
+"This attribute is used in configurable products. You cannot remove it from the attribute set.","Este atributo se utiliza en artículos configurables. No es posible eliminarlo del conjunto de atributos.",module,Magento_ConfigurableProduct
+"Associated Products","Artículos asociados",module,Magento_ConfigurableProduct
+"Sort Variations","Organizar variaciones",module,Magento_ConfigurableProduct
+Select,Seleccionar,module,Magento_ConfigurableProduct
 Price,Precio,module,Magento_ConfigurableProduct
 Quantity,Cantidad,module,Magento_ConfigurableProduct
 "Add Products Manually","Agregue manualmente los productos",module,Magento_ConfigurableProduct
@@ -987,6 +992,8 @@ Quantity,Cantidad,module,Magento_ConfigurableProduct
 Image,Imagen,module,Magento_ConfigurableProduct
 Name,Nombre,module,Magento_ConfigurableProduct
 Weight,Peso,module,Magento_ConfigurableProduct
+"Upload Image","Subir imagenes",module,Magento_ConfigurableProduct
+"No Image","No hay imagen",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Elija conjunto de atributo afectado",module,Magento_ConfigurableProduct
 Confirm,Confirmar,module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
