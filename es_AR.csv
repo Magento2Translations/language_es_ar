@@ -1614,6 +1614,7 @@ OK,Aceptar,module,Magento_Catalog
 "Choose existing category.","Elegir categoría existente.",module,Magento_Catalog
 "Create Category","Crear categoría",module,Magento_Catalog
 "unselect all","deseleccionar todo",module,Magento_Catalog
+"Incl. Tax","Incl. impuestos",module,Magento_ConfigurableProduct
 Allow,Permitir,module,Magento_Integration
 Done,Listo,module,Magento_Integration
 "Add Products","Agregar Productos",module,Magento_Sales
@@ -1879,6 +1880,7 @@ Template,Plantilla,module,Magento_Cms
 "Contents of a Static Block","Contenidos en un bloque estático",module,Magento_Cms
 Block,Bloque,module,Magento_Cms
 "CMS Static Block Default Template","Bloque estático - Standard Template",module,Magento_Cms
+"Configurable Product Image","Imagen de producto configurable",module,Magento_ConfigurableProduct
 Contacts,Contactos,module,Magento_Contact
 "Contact Us",Contáctanos,module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron. (tareas programadas), todos los tiempos se expresan en minutos",module,Magento_Cron
