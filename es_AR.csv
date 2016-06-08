@@ -1503,6 +1503,8 @@ Quantity,Cantidad,module,Magento_ConfigurableProduct
 "Step 1: Select Attributes","Paso 1: Seleccionar atributos",module,Magento_ConfigurableProduct
 "Selected Attributes:","Los atributos seleccionados:",module,Magento_ConfigurableProduct
 "Step 4: Summary","Paso 4: Resumen",module,Magento_ConfigurableProduct
+"Configurable products allow customers to choose options (Ex: shirt color).
+            You need to create a simple product for each configuration (Ex: a product for each color).","Productos configurables permiten a los clientes a elegir opciones (Ex: color de la camisa). Es necesario crear un producto simple para cada configuración (Ex: un producto para cada color).",module,Magento_ConfigurableProduct
 "Edit Configurations","Editar las configuraciones",module,Magento_ConfigurableProduct
 "Create Configurations","Crear configuraciones",module,Magento_ConfigurableProduct
 "Add Products Manually","Agregue manualmente los productos",module,Magento_ConfigurableProduct
@@ -1516,6 +1518,7 @@ Actions,Acciones,module,Magento_ConfigurableProduct
 "No Image","No hay imagen",module,Magento_ConfigurableProduct
 "Choose a different Product","Elegir un producto diferente",module,Magento_ConfigurableProduct
 "Remove Product","Eliminar artículo",module,Magento_ConfigurableProduct
+"Create Product Configurations","Crear configuraciones de productos",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Elija conjunto de atributo afectado",module,Magento_ConfigurableProduct
 Confirm,Confirmar,module,Magento_ConfigurableProduct
 Cancel,Cancelar,module,Magento_ConfigurableProduct
@@ -2469,14 +2472,19 @@ OK,Aceptar,module,Magento_Catalog
 "Image Detail","Detalles de la imagen",module,Magento_Catalog
 "unselect all","deseleccionar todo",module,Magento_Catalog
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Cms
+"Incl. Tax","Incl. impuestos",module,Magento_ConfigurableProduct
 "Select Associated Product","Seleccione artículo asociado",module,Magento_ConfigurableProduct
 Done,Listo,module,Magento_ConfigurableProduct
 "For better results, add attributes and attribute values to your products.","Para obtener mejores resultados, añadir atributos y valores de atributos a sus artículos.",module,Magento_ConfigurableProduct
+"An attribute has been removed. This attribute will no longer appear in your configurations.","Un atributo se ha eliminado. Este atributo no aparece en las configuraciones.",module,Magento_ConfigurableProduct
+"Select options for all attributes or remove unused attributes.","Seleccione opciones para todos los atributos o eliminar atributos no utilizados.",module,Magento_ConfigurableProduct
 "Please, fill correct values","Por favor, complete con valores correctos",module,Magento_ConfigurableProduct
 "Please, select image(s) for your attribute","Por favor, seleccione imágen(es) para su atributo",module,Magento_ConfigurableProduct
 "Please choose image(s)","Por favor, seleccione imágen(es)",module,Magento_ConfigurableProduct
+"We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_ConfigurableProduct
 "We don't recognize or support this file extension type.","No reconocemos o soportamos este tipo de extensión de archivo.",module,Magento_ConfigurableProduct
 "Please, select attribute(s)","Por favor, seleccione atributo(s)",module,Magento_ConfigurableProduct
+"Generate Products","Generar productos",module,Magento_ConfigurableProduct
 Allow,Permitir,module,Magento_Integration
 Done,Listo,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Nosotros no podemos completar el pedido porque no tienes forma de pago establecida.",module,Magento_Multishipping
@@ -2825,8 +2833,16 @@ Enable,Habilitar,module,Magento_Cms
 "Field 3.1","Campo 3.1",module,Magento_Config
 "Field 3.1.1","Campo 3.1.1",module,Magento_Config
 "Field 4","Campo 4",module,Magento_Config
+"Configurable Product Image","Imagen de producto configurable",module,Magento_ConfigurableProduct
+Select...,Seleccionar...,module,Magento_ConfigurableProduct
 Status,Estado,module,Magento_ConfigurableProduct
+Thumbnail,Miniatura,module,Magento_ConfigurableProduct
+"Attribute Code","Código de atributo",module,Magento_ConfigurableProduct
+"Attribute Label","Etiqueta de atributo",module,Magento_ConfigurableProduct
+Required,Obligatorio,module,Magento_ConfigurableProduct
 System,Sistema,module,Magento_ConfigurableProduct
+Scope,Alcance,module,Magento_ConfigurableProduct
+Searchable,Buscable,module,Magento_ConfigurableProduct
 Contacts,Contactos,module,Magento_Contact
 "Contact Us",Contáctanos,module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron. (tareas programadas), todos los tiempos se expresan en minutos",module,Magento_Cron
