@@ -1936,15 +1936,76 @@ Login,Entrar,module,Magento_Customer
 Gender,Sexo,module,Magento_Customer
 Name,Nombre,module,Magento_Customer
 "Tax/VAT number","Número de IVA/impuestos",module,Magento_Customer
+"Cannot switch into given mode ""%1""","No se puede cambiar al modo dado ""%1""",module,Magento_Deploy
+"Format for IDE '%1' is not supported","Formato para IDE '%1' no es compatible",module,Magento_Developer
+"Client side less compilation","Compilación Less Client Side",module,Magento_Developer
+"Server side less compilation","Compilación less server side",module,Magento_Developer
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds %1 %2.","Seleccione esta opción para permitir a DHL optimizar gastos de envío mediante la división del pedido si excede %1 %2.",module,Magento_Dhl
+"Wrong Content Type","Tipo de contenido incorrecto",module,Magento_Dhl
+Pounds,Libras,module,Magento_Dhl
+Kilograms,Kilogramos,module,Magento_Dhl
 Inches,Pulgadas,module,Magento_Dhl
+Centimeters,Centímetros,module,Magento_Dhl
+inch,pulgada,module,Magento_Dhl
+Height,Altura,module,Magento_Dhl
+Depth,Anchura,module,Magento_Dhl
+Width,Ancho,module,Magento_Dhl
+Specific,Específico,module,Magento_Dhl
+"Easy shop","Compra fácil",module,Magento_Dhl
+"Express easy","Envío urgente fácil",module,Magento_Dhl
+"Break bulk express","Fraccionar envío urgente a granel",module,Magento_Dhl
+"Medical express","Envío médico urgente",module,Magento_Dhl
+"Express worldwide","Envío urgente internacional",module,Magento_Dhl
+"Express 9:00","Envío urgente hasta las 9:00 horas",module,Magento_Dhl
+"Express 10:30","Envío urgente hasta las 10:30 horas",module,Magento_Dhl
+"Domestic economy select","Selección de economía doméstica",module,Magento_Dhl
+"Economy select","Selección de economía",module,Magento_Dhl
+"Break bulk economy","Fraccionar economía a granel",module,Magento_Dhl
+"Domestic express","Envío urgente doméstico",module,Magento_Dhl
+Others,Otros,module,Magento_Dhl
+"Globalmail business","Negocio de correo global",module,Magento_Dhl
+"Same day","El mismo día",module,Magento_Dhl
+"Express 12:00","Envío urgente hasta las 12:00 horas",module,Magento_Dhl
+"Express envelope","Envío urgente sobre",module,Magento_Dhl
+"Customer services","Atención al cliente",module,Magento_Dhl
+"Freight worldwide","Transporte internacional",module,Magento_Dhl
+"Jumbo box","Buzón Jumbo",module,Magento_Dhl
+"DHL service is not available at %s date","DHL servicio no está disponible en %s fecha",module,Magento_Dhl
+"The response is in wrong format.","La respuesta tiene un formato incorrecto.",module,Magento_Dhl
+"Error #%1 : %2","Error #%1: %2",module,Magento_Dhl
 "We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).","Tuvimos que saltar DHL método %1 porque no pudimos encontrar %2 de tipo de cambio (moneda Base).",module,Magento_Dhl
+"Zero shipping charge for '%1'","Cero gastos de envío para '%1'",module,Magento_Dhl
+"Cannot identify measure unit for %1","No se puede identificar la unidad de medida para %1",module,Magento_Dhl
+"Cannot identify weight unit for %1","No se puede identificar la unidad de peso para %1",module,Magento_Dhl
+"There is no items in this order","No hay artículos en este pedido",module,Magento_Dhl
 "Please, specify origin country","Por favor, indicar país de origen",module,Magento_Dhl
+Documents,Documentos,module,Magento_Dhl
+"Non Documents","Sin documentos",module,Magento_Dhl
+"Height, width and length should be equal or greater than %1","Altura, anchura y longitud deben ser igual o mayor que %1",module,Magento_Dhl
+"Wrong Region","Región incorrecta",module,Magento_Dhl
+"Unable to retrieve tracking","No se puede recuperar el seguimiento",module,Magento_Dhl
+"Response is in the wrong format","La respuesta está en el formato incorrecto",module,Magento_Dhl
+"No packages for request","No hay solicitud de paquetes",module,Magento_Dhl
+"Unable to retrieve shipping label","No se puede recuperar la etiqueta de envío",module,Magento_Dhl
+"Non documents","Sin documentos",module,Magento_Dhl
 None,Ninguno,module,Magento_Dhl
 State/Province,Estado/Provincia,module,Magento_Directory
 "--Please Select--","--Por favor Seleccione--",module,Magento_Directory
+"Requested country is not available.","El país solicitado no está disponible.",module,Magento_Directory
+"Please correct the target currency.","Por favor corrija la moneda de destino.",module,Magento_Directory
+"Undefined rate from ""%1-%2"".","Tarifa indefinida de ""%1-%2"".",module,Magento_Directory
+label,etiqueta,module,Magento_Directory
 "We can't retrieve a rate from %1.","No se puede obtener el tipo de cambio de %1.",module,Magento_Directory
+"FATAL ERROR:","ERROR FATAL:",module,Magento_Directory
 "We can't initialize the import model.","No podemos iniciar el modelo de importación.",module,Magento_Directory
+"Please specify the correct Import Service.","Por favor especifique un servicio de importación correcto.",module,Magento_Directory
+WARNING:,ADVERTENCIA:,module,Magento_Directory
+"Please correct the country code: %1.","Por favor, corregir el código del país: %1.",module,Magento_Directory
+"Country and Format Type combination should be unique","La combinación de tipo de formato y país debe ser única",module,Magento_Directory
+"Please correct the rates received","Por favor corregir las tarifas recibidas",module,Magento_Directory
+"Please select a region, state or province.","Por favor seleccione región, estado o provincia.",module,Magento_Directory
 Currency,Moneda,module,Magento_Directory
+"Your current currency is: %1.","La moneda actual es: %1.",module,Magento_Directory
 Continue,Continuar,module,Magento_Directory
 "File directory '%1' is not readable.","Directorio de archivos '%1' no es legible.",module,Magento_DownloadableImportExport
 "File directory '%1' is not writable.","El directorio '%1' no es escribible.",module,Magento_DownloadableImportExport
@@ -2797,6 +2858,7 @@ Password:,Contraseña:,module,Magento_Customer
 "If you did not make this request, you can ignore this email and your password will remain the same.","Si no ha realizado esta solicitud, puede ignorar este mensaje y su contraseña seguirá siendo la misma.",module,Magento_Customer
 "The password for your account has been successfully changed.","La contraseña de su cuenta se ha cambiado correctamente.",module,Magento_Customer
 "If you did not request this change, please contact us.","Si usted no ha solicitado este cambio, por favor, póngase en contacto con nosotros.",module,Magento_Customer
+"Currency Update Warnings","Avisos de actualización de divisas",module,Magento_Directory
 "%sender_name wants to share this product with you:","%sender_name quiere compartir este producto con ustedes:",module,Magento_SendFriend
 "Message from %sender_name:","Mensaje de %sender_name:",module,Magento_SendFriend
 "The password for your account has been successfully changed.","La contraseña de su cuenta se ha cambiado correctamente.",module,Magento_User
@@ -3328,15 +3390,56 @@ Addresses,Direcciones,module,Magento_Customer
 "My Dashboard","Mi panel de control",module,Magento_Customer
 "You are signed out.","Has cerrado la sesión.",module,Magento_Customer
 "Front-end development workflow","Flujo de trabajo de desarrollo front-end",module,Magento_Developer
+"Workflow type","Tipo de flujo de trabajo",module,Magento_Developer
+"Not available in production mode","No disponible en modo de producción",module,Magento_Developer
+"Developer Client Restrictions","Desarrollador de restricciones de cliente",module,Magento_Developer
+"Allowed IPs (comma separated)","IP permitidas (separadas por comas)",module,Magento_Developer
+"Leave empty for access from any location.","Dejar en blanco para acceder desde cualquier lugar.",module,Magento_Developer
+"Enabled for Checkout","Habilitado para el proceso de pago",module,Magento_Dhl
+"Gateway URL","URL de la pasarela",module,Magento_Dhl
 Title,Título,module,Magento_Dhl
+"Access ID","ID de acceso",module,Magento_Dhl
 Password,Contraseña,module,Magento_Dhl
 "Account Number","Número de Cuenta",module,Magento_Dhl
+"Content Type","Tipo de contenido",module,Magento_Dhl
+"Calculate Handling Fee","Calcular el gastos de envío",module,Magento_Dhl
+"Handling Applied","Gastos de tramitación aplicados",module,Magento_Dhl
+"""Per Order"" allows a single handling fee for the entire order. ""Per Package"" allows an individual handling fee for each package.","""Por Pedido"" permite una única tarifa de gastos de manipulación para todo el pedido. ""Por Paquete"" permite una tarifa de gastos de gestión individual para cada paquete.",module,Magento_Dhl
+"Handling Fee","Gastos de tramitación",module,Magento_Dhl
+"Divide Order Weight","Dividir el peso del pedido",module,Magento_Dhl
+"Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Seleccione esta opción para permitir a DHL optimizar gastos de envío mediante la división del pedido si excede %1 %2.",module,Magento_Dhl
+"Weight Unit","Unidad de peso",module,Magento_Dhl
+Size,Tamaño,module,Magento_Dhl
+"Allowed Methods","Métodos permitidos",module,Magento_Dhl
+"Displayed Error Message","Mensaje de error mostrado",module,Magento_Dhl
+"Free Method","Método gratuito",module,Magento_Dhl
+"Free Shipping Amount Threshold","Envío gratuito cantidad umbral",module,Magento_Dhl
+"Ship to Applicable Countries","Envío a países aplicables",module,Magento_Dhl
+"Ship to Specific Countries","Envío a países específicos",module,Magento_Dhl
+"Show Method if Not Applicable","Mostrar el método de envío, incluso si no se aplica",module,Magento_Dhl
+"Sort Order","Tipo de orden",module,Magento_Dhl
 Debug,Depurar,module,Magento_Dhl
+"Currency Setup","Configuración de divisas",module,Magento_Directory
+"Currency Options","Opciones de divisas",module,Magento_Directory
 "Base Currency","Moneda base",module,Magento_Directory
+"Default Display Currency","Divisa mostrada (preseleccionada)",module,Magento_Directory
 "Allowed Currencies","Monedas permitidas",module,Magento_Directory
+"Connection Timeout in Seconds","Plazo de expiración de la conexión en segundos",module,Magento_Directory
+"Scheduled Import Settings","Configuración de la importación programada",module,Magento_Directory
 Enabled,Habilitado,module,Magento_Directory
+"Error Email Recipient","Error en el destinatario del mensaje",module,Magento_Directory
+"Error Email Sender","Error en el remitente del mensaje",module,Magento_Directory
+"Error Email Template","Error en la plantilla del mensaje",module,Magento_Directory
+"Email template chosen based on theme fallback when ""Default"" option is selected.","Plantilla de correo electrónico elegida basada en la suplencia de tema cuando está seleccionada la opción ""Predeterminado"".",module,Magento_Directory
 Frequency,Frecuencia,module,Magento_Directory
 Service,Servicio,module,Magento_Directory
+"Start Time","Tiempo de inicio",module,Magento_Directory
+"Installed Currencies","Divisas instaladas",module,Magento_Directory
+"Zip/Postal Code is Optional for","Código Postal es opcional para",module,Magento_Directory
+"State Options","Opciones de estado",module,Magento_Directory
+"State is Required for","Estado es necesario para",module,Magento_Directory
+"Allow to Choose State if It is Optional for Country","Permiten elegir estado si es opcional para el país",module,Magento_Directory
+"Weight Unit","Unidad de peso",module,Magento_Directory
 "Entity types declaration cache.","Caché de declaración de tipos de entidad.",module,Magento_Eav
 Action,Acción,module,Magento_Email
 Title,Título,module,Magento_Fedex
