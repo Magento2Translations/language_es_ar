@@ -252,11 +252,29 @@ password,contraseña,module,Magento_Backend
 "View Statistics For:","Ver estadísticas de:",module,Magento_Backend
 "All Websites","Todos los sitios web",module,Magento_Backend
 "Reload Data","Recargar datos",module,Magento_Backend
+"Browse Files...","Buscar archivos...",module,Magento_Backend
+"Magento Admin Panel","Panel de administración de Magento",module,Magento_Backend
+"Account Setting","Configuración de la cuenta",module,Magento_Backend
+"Customer View","Vista de cliente",module,Magento_Backend
+"Sign Out","Cerrar sesión",module,Magento_Backend
 "About the calendar","Sobre el calendario",module,Magento_Backend
 Close,Cerrar,module,Magento_Backend
+"Go Today",Hoy,module,Magento_Backend
 Previous,Anterior,module,Magento_Backend
 Next,Siguiente,module,Magento_Backend
+Time,Tiempo,module,Magento_Backend
+Hour,Hora,module,Magento_Backend
+Minute,Minuto,module,Magento_Backend
+"JavaScript may be disabled in your browser.","Posiblemente JavaScript esté desactivado en su navegador.",module,Magento_Backend
+"To use this website you must first enable JavaScript in your browser.","Para utilizar este sitio web primero debe activar JavaScript en su navegador.",module,Magento_Backend
+"This is only a demo store. You can browse and place orders, but nothing will be processed.","Esto es sólo una tienda de demostración. Usted puede navegar y realizar pedidos, pero no se procesarán.",module,Magento_Backend
+"Stores Configuration","Configuración de las tiendas",module,Magento_Backend
+"Additional Cache Management","Gestión de memoria caché adicional",module,Magento_Backend
+"Flush Catalog Images Cache","Vaciar memoria cache de imágenes del catalogo",module,Magento_Backend
+"Pregenerated product images files","Archivos de imágenes del producto regenerado",module,Magento_Backend
+"Flush JavaScript/CSS Cache","Borrar Memoria Cache de JavaScript/CSS",module,Magento_Backend
 "Themes JavaScript and CSS files combined to one file.","Archivos JavaScript y CSS de tema combinados a un archivo.",module,Magento_Backend
+"Flush Static Files Cache","Borrar Memoria Caché de Archivos Estáticos",module,Magento_Backend
 "Preprocessed view files and static files","Archivos de vista preprocesados y archivos estáticos",module,Magento_Backend
 Catalog,Catálogo,module,Magento_Backend
 "JavaScript/CSS Cache",JavaScript/CSS-Cache,module,Magento_Backend
@@ -1018,6 +1036,9 @@ Import,Importar,module,Magento_CurrencySymbol
 "All valid rates have been saved.","Todas las tarifas válidas han sido guardadas.",module,Magento_CurrencySymbol
 System,Sistema,module,Magento_CurrencySymbol
 "Old rate:","Precio antiguo:",module,Magento_CurrencySymbol
+"Customer address id column is not specified","Id de columna de dirección de cliente no especificada",module,Magento_CustomerImportExport
+"Orphan rows that will be skipped due default row errors","Filas huérfanas que se omitirán debido errores de fila predeterminados",module,Magento_CustomerImportExport
+"Invalid value in Store column (store does not exists?)","Valor inválido en la columna Tienda (¿la tienda existe?)",module,Magento_CustomerImportExport
 "You subscribe to our newsletter.","Suscribirse a nuestro boletín de noticias.",module,Magento_Customer
 "You have not set a default shipping address.","No ha establecido una dirección de envío predeterminada.",module,Magento_Customer
 "You have not set a default billing address.","No ha establecido una dirección de facturación predeterminada.",module,Magento_Customer
@@ -1835,6 +1856,7 @@ Advanced,Avanzado,module,Magento_Backend
 "Custom Email 2","Correo electrónico personalizado 2",module,Magento_Backend
 "General Contact","Contacto general",module,Magento_Backend
 "Sales Representative","Representante de ventas",module,Magento_Backend
+"Customer Support","Soporte al cliente",module,Magento_Backend
 Design,Diseño,module,Magento_Backend
 "Design Theme","Tema del diseño",module,Magento_Backend
 "User-Agent Exceptions","Excepciones de Agente-Usuario",module,Magento_Backend
@@ -1842,10 +1864,32 @@ Design,Diseño,module,Magento_Backend
 Pagination,Paginación,module,Magento_Backend
 "If the current frame position does not cover utmost pages, will render link to current position plus/minus this value.","Si la posición actual del marco no cubre la mayoría de las páginas, se procesará un enlace a la posición actual +/- este valor.",module,Magento_Backend
 "Alternative text for previous link in pagination menu. If empty, default arrow image will used.","Texto alternativo para el enlace anterior en el menú de la paginación. Si está vacío, imagen Flecha predeterminada utilizará.",module,Magento_Backend
+"Anchor Text for Next","Texto de ancla para página siguiente",module,Magento_Backend
 "Alternative text for next link in pagination menu. If empty, default arrow image will used.","Texto alternativo para el siguiente enlace en el menú de la pagina. Si está vacío, se utiliza la imagen de flecha por defecto.",module,Magento_Backend
 Developer,Desarrollador,module,Magento_Backend
 Debug,Depurar,module,Magento_Backend
+"Enabled Template Path Hints for Storefront","Habilitar Consejos en la Ruta de Plantilla para el Escaparate",module,Magento_Backend
+"Enabled Template Path Hints for Admin","Habilitar Consejos en la Ruta de Plantilla para el Administrador",module,Magento_Backend
+"Add Block Names to Hints","Agregar nombres de bloques a la ayuda",module,Magento_Backend
+"Template Settings","Plantillas Configuraciones",module,Magento_Backend
+"Allow Symlinks","Permitir Symlinks",module,Magento_Backend
+"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","¡Advertencia! No se recomienda habilitar esta función en un entorno de producción ya que representa un potencial riesgo a la seguridad.",module,Magento_Backend
+"Minify Html","Minificar Html",module,Magento_Backend
+"Translate Inline","Traducir en línea",module,Magento_Backend
+"Enabled for Storefront","Habilitado para tienda",module,Magento_Backend
+"Enabled for Admin","Habilitado para el Administrador",module,Magento_Backend
+"Translate, blocks and other output caches should be disabled for both Storefront and Admin inline translations.","Traducir, bloques y otras memorias cache de salida deben estar deshabilitados para las traducciones en línea de la tienda y administración.",module,Magento_Backend
+"JavaScript Settings","Configuración JavaScript",module,Magento_Backend
+"Merge JavaScript Files","Combinar archivos de JavaScript",module,Magento_Backend
 "Enable Javascript Bundling","Habilitar agrupación Javascript",module,Magento_Backend
+"Minify JavaScript Files","Minify archivos JavaScript",module,Magento_Backend
+"CSS Settings","Configuración CSS",module,Magento_Backend
+"Merge CSS Files","Combinar archivos CSS",module,Magento_Backend
+"Minify CSS Files","Minify archivos CSS",module,Magento_Backend
+"Image Processing Settings","Ajustes de procesamiento de la imagen",module,Magento_Backend
+"Image Adapter","Adaptador de imagen",module,Magento_Backend
+"Static Files Settings","Configuración de archivos estáticos",module,Magento_Backend
+"Sign Static Files","Firmar archivos estáticos",module,Magento_Backend
 Country,País,module,Magento_Backend
 City,Ciudad,module,Magento_Backend
 "Port (25)","Puerto (25)",module,Magento_Backend
