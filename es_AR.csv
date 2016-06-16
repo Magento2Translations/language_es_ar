@@ -1710,6 +1710,10 @@ Active,Activo,module,Magento_Integration
 "Invalid Callback URL","Llamada URL inválida",module,Magento_Integration
 "Invalid Rejected Callback URL","Llamada URL rechazada inválida",module,Magento_Integration
 "A consumer with ID %1 does not exist","No existe un consumidor con ID %1",module,Magento_Integration
+"The integration you selected asks you to approve access to the following:","La integración que ha seleccionado te pide para aprobar el acceso a los siguientes:",module,Magento_Integration
+"Are you sure ?","¿Estás seguro ?",module,Magento_Integration
+"Are you sure you want to delete this integration? You can't undo this action.","¿Está seguro que desea eliminar esta integración? No se puede deshacer esta acción.",module,Magento_Integration
+"Please setup or sign in into your 3rd party account to complete setup of this integration.","Por favor configurar o Identifícate en tu cuenta de partido 3 para completar la instalación de esta integración.",module,Magento_Integration
 Position,Posición,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Posición de atributo en el bloque de navegación en capas",module,Magento_LayeredNavigation
 Previous,Anterior,module,Magento_LayeredNavigation
@@ -2161,6 +2165,7 @@ OK,Aceptar,module,Magento_Catalog
 "Are you sure you want to delete this address?","¿Realmente quiere borrar esta dirección?",module,Magento_Customer
 "Add Products to Group","Agregar artículos al grupo",module,Magento_GroupedProduct
 "Add Selected Products","Añadir los artículos seleccionados",module,Magento_GroupedProduct
+"Sorry, something went wrong. Please try again later.","Lo sentimos, algo salió mal. Por favor Inténtalo más tarde.",module,Magento_Integration
 Allow,Permitir,module,Magento_Integration
 Done,Listo,module,Magento_Integration
 "Add Products","Agregar Productos",module,Magento_Sales
@@ -2654,6 +2659,13 @@ Description,Descripción,module,Magento_Indexer
 Mode,Modo,module,Magento_Indexer
 Status,Estado,module,Magento_Indexer
 Updated,Actualizado,module,Magento_Indexer
+"Cleanup Settings","Ajustes de limpieza",module,Magento_Integration
+"Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
+"Expiration Period","Período de expiración",module,Magento_Integration
+"Consumer Settings","Configuración del consumidor",module,Magento_Integration
+"OAuth consumer credentials HTTP Post maxredirects","OAuth consumidores credenciales maxredirects HTTP Post",module,Magento_Integration
+"OAuth consumer credentials HTTP Post timeout","Tiempo de espera de OAuth consumidores credenciales HTTP Post",module,Magento_Integration
+"Integrations Configuration","Configuración de integraciones",module,Magento_Integration
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
 "No Integrations Found","No hay integraciones encontradas",module,Magento_Integration
 Status,Estado,module,Magento_Integration
