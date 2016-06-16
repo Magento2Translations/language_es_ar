@@ -345,6 +345,7 @@ Country,País,module,Magento_Braintree
 "Credit card type is not allowed for this payment method.","Este tipo de tarjeta de crédito no está permitido para este método de pago.",module,Magento_Braintree
 "Selected payment type is not allowed for billing country.","El tipo de pago seleccionado no está permitido para el país de facturación.",module,Magento_Braintree
 "Please try again later","Por favor, inténtalo más tarde",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","Este reembolso es una cantidad parcial pero la transacción no se ha establecido.",module,Magento_Braintree
 "Please wait 24 hours before trying to issue a partial refund.","Por favor espere 24 horas antes de emitir un reembolso parcial.",module,Magento_Braintree
 "Some transactions are already settled or voided and cannot be voided.","Algunas transacciones ya se han cancelado o anulado y no pueden ser anuladas.",module,Magento_Braintree
 "Invalid Customer ID provided","ID de cliente proporcionado no válido",module,Magento_Braintree
@@ -1425,47 +1426,290 @@ Dropdown,"Lista desplegable",module,Magento_Eav
 """%1"" height exceeds allowed value of %2 px.","""%1"" altura excede el valor permitido de %2 px.",module,Magento_Eav
 """%1"" length must be equal or greater than %2 characters.","""%1"" longitud debe ser igual o mayor que %2 caracteres.",module,Magento_Eav
 """%1"" length must be equal or less than %2 characters.","La longitud de ""%1"" debe ser igual o menor a los caracteres de %2.",module,Magento_Eav
+"Invalid entity_type specified: %1","Entity_type especificado no válido: %1",module,Magento_Eav
+"Entity is not initialized","La entidad no está inicializada",module,Magento_Eav
+"Unknown parameter","Parámetro desconocido",module,Magento_Eav
+"Invalid default decimal value","Valor decimal por defecto no válido",module,Magento_Eav
+"Invalid default date","Fecha por defecto no válida",module,Magento_Eav
+"Invalid entity supplied","Se suministró una entidad no válida",module,Magento_Eav
+"Invalid backend model specified: %1","Backend modelo especificado no es válido: %1",module,Magento_Eav
+"Source model ""%1"" not found for attribute ""%2""","Modelo de la fuente ""%1"" no ha encontrado para el atributo ""%2""",module,Magento_Eav
+"The value of attribute ""%1"" must be set","El valor del atributo ""%1"" debe establecerse",module,Magento_Eav
+"The value of attribute ""%1"" must be unique","El valor del atributo ""%1"" debe ser único",module,Magento_Eav
 "Invalid date","Fecha inválida",module,Magento_Eav
+"Attribute set name is empty.","Nombre del conjunto de atributos está vacío.",module,Magento_Eav
+"No options found.","No hay opciones encontradas.",module,Magento_Eav
+label,etiqueta,module,Magento_Eav
+"Invalid entity supplied: %1","Entidad indicada no válida: %1",module,Magento_Eav
+"Attempt to add an invalid object","Intenta agregar un objeto no válido",module,Magento_Eav
+"Invalid attribute identifier for filter (%1)","Identificador de atributo no válido para el filtro (%1)",module,Magento_Eav
+"Invalid attribute requested: %1","Se solicitó un atributo no válido: %1",module,Magento_Eav
+"Joint field or attribute expression with this alias is already declared","Ya se ha declarado un campo combinado o una expresión de atributos con este alias",module,Magento_Eav
+"Invalid alias, already exists in joint attributes","Alias inválido, ya existe en los atributos comunes",module,Magento_Eav
+"Invalid foreign key","Clave externa no válida",module,Magento_Eav
+"Invalid entity type","Tipo de entidad no válido",module,Magento_Eav
+"Invalid attribute type","Tipo de atributo no válido",module,Magento_Eav
+"A joined field with this alias is already declared.","Ya se ha declarado un campo combinado con este alias.",module,Magento_Eav
+"Invalid joint fields","Campos combinados no válidos",module,Magento_Eav
+"A joint field with this alias (%1) is already declared.","Ya se ha declarado un campo conjunto con este alias (%1).",module,Magento_Eav
+"Data integrity: No header row found for attribute","Integridad de datos: No se ha encontrado una línea de encabezamiento para el campo",module,Magento_Eav
+"Invalid attribute name: %1","Nombre de atributo no válido: %1",module,Magento_Eav
+"Invalid character encountered in increment ID: %1","Se encontró un carácter no válido en el ID de incremento: %1",module,Magento_Eav
+"Invalid form type.","Tipo de formulario no válido.",module,Magento_Eav
+"Invalid EAV attribute","Atributo no válido de la EAV",module,Magento_Eav
+"Attribute with the same code","Atributo con el mismo código",module,Magento_Eav
+"Default option value is not defined","El valor por defecto para la opción no está definido",module,Magento_Eav
+"Form Element with the same attribute","Elemento de formulario con el mismo atributo",module,Magento_Eav
+"Form Fieldset with the same code","Conjunto de campos de formulario con el mismo código",module,Magento_Eav
+"Form Type with the same code","Tipo de formulario con el mismo código",module,Magento_Eav
+"Wrong entity ID","ID de entidad es erróneo",module,Magento_Eav
+"Wrong attribute set ID","ID de conjunto de atributos es erróneo",module,Magento_Eav
+"Wrong attribute group ID","ID de grupo de atributos es erróneo",module,Magento_Eav
+"Add New Template","Nueva plantilla",module,Magento_Email
+"Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
 Reset,Restablecer,module,Magento_Email
+"Delete Template","Eliminar plantilla",module,Magento_Email
+"Convert to Plain Text","Convertir a texto sin formato",module,Magento_Email
+"Return Html Version","Volver versión Html",module,Magento_Email
+"Preview Template","Vista previa de la plantilla",module,Magento_Email
+"Save Template","Guardar la plantilla",module,Magento_Email
+"Load Template","Plantilla de carga",module,Magento_Email
+"Edit Email Template","Editar plantilla de correo electrónico",module,Magento_Email
+"New Email Template","Nueva plantilla de correo electrónico",module,Magento_Email
+"Template Information","Información de plantilla",module,Magento_Email
+"Template Name","Nombre de plantilla",module,Magento_Email
+"Template Subject","Asunto de la plantilla",module,Magento_Email
+"Insert Variable...","Insertar variable...",module,Magento_Email
+"Template Content","Contenido de plantilla",module,Magento_Email
+"Template Styles","Estilos de plantilla",module,Magento_Email
 Preview,"Vista previa",module,Magento_Email
+Unknown,Desconocido,module,Magento_Email
+"The email template is currently being used.","La plantilla de correo electrónico está siendo usada actualmente.",module,Magento_Email
+"Edit Template","Editar la plantilla",module,Magento_Email
+"Edit System Template","Editar plantilla de sistema",module,Magento_Email
+"New Template","Nueva plantilla",module,Magento_Email
+"New System Template","Nueva plantilla de sistema",module,Magento_Email
+"Email Templates","Plantillas de correo electrónico",module,Magento_Email
+"Email Preview","Vista previa del correo electrónico",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","Se ha producido un error. La plantilla de correo electrónico no se puede abrir para vista previa.",module,Magento_Email
+"This email template no longer exists.","Esta plantilla de correo electrónico ya no existe.",module,Magento_Email
+"Base Unsecure URL","URL base insegura",module,Magento_Email
+"Base Secure URL","URL base segura",module,Magento_Email
+"General Contact Name","Nombre de contacto general",module,Magento_Email
+"General Contact Email","Email de contacto general",module,Magento_Email
+"Sales Representative Contact Name","Nombre de contacto del representante ventas",module,Magento_Email
+"Sales Representative Contact Email","Email de contacto del representante de ventas",module,Magento_Email
+"Custom1 Contact Name","Nombre de contacto Custom1",module,Magento_Email
+"Custom1 Contact Email","Email de contacto Custom1",module,Magento_Email
+"Custom2 Contact Name","Nombre de contacto Custom2",module,Magento_Email
+"Custom2 Contact Email","Email de contacto Custom2",module,Magento_Email
+"Store Name","Nombre de la tienda",module,Magento_Email
+"Store Phone Number","Número de teléfono de la tienda",module,Magento_Email
 Country,País,module,Magento_Email
+Region/State,Región/Provincia,module,Magento_Email
 "Zip/Postal Code","Código Postal",module,Magento_Email
 City,Ciudad,module,Magento_Email
+"Street Address 1","Dirección Calle 1",module,Magento_Email
+"Street Address 2","Dirección Calle 2",module,Magento_Email
+"Store Contact Information","Tienda Información de contacto",module,Magento_Email
+"Template Variables","Variables de plantilla",module,Magento_Email
+"Duplicate Of Template Name","Nombre de la plantilla duplicado",module,Magento_Email
+"Invalid transactional email code: %1","Código de correo electrónico transaccional invalido: %1",module,Magento_Email
+"Requested invalid store ""%1""","Tienda solicitada ""%1"" no válida",module,Magento_Email
+"Invalid sender data","Datos de remitente inválidos",module,Magento_Email
+"Load default template","Plantilla de carga por defecto",module,Magento_Email
 Template,Plantilla,module,Magento_Email
+"Change Encryption Key","Cambiar clave de cifrado",module,Magento_EncryptionKey
+"Encryption Key","Clave de cifrado",module,Magento_EncryptionKey
+"New Encryption Key","Nueva clave de cifrado",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","La clave de cifrado se utiliza para proteger las contraseñas y otros datos sensibles.",module,Magento_EncryptionKey
+"Auto-generate a Key","Generar una clave",module,Magento_EncryptionKey
 Yes,Si,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.","Se mostrará la clave generada después de cambiar.",module,Magento_EncryptionKey
+"New Key","Nueva clave",module,Magento_EncryptionKey
+"Please enter an encryption key.","Por favor, introduzca una clave de cifrado.",module,Magento_EncryptionKey
+"The encryption key has been changed.","Se cambió la clave de cifrado.",module,Magento_EncryptionKey
+"Europe First Priority","Primera prioridad de Europa",module,Magento_Fedex
+"1 Day Freight","Un día de flete",module,Magento_Fedex
+"2 Day Freight","Dos días de flete",module,Magento_Fedex
+"2 Day","Dos días",module,Magento_Fedex
+"2 Day AM","Segundo día por la mañana",module,Magento_Fedex
+"3 Day Freight","Tres días de flete",module,Magento_Fedex
+"Express Saver","Envío urgente garantizada",module,Magento_Fedex
+Ground,"Vía terrestre",module,Magento_Fedex
+"First Overnight","Primera clase nocturno",module,Magento_Fedex
+"Home Delivery","Entrega a domicilio",module,Magento_Fedex
+"International Economy","Internacional Económico",module,Magento_Fedex
+"Intl Economy Freight","Flete internacional económico",module,Magento_Fedex
+"International First","Internacional Primera",module,Magento_Fedex
+"International Ground","Internacional Vía terrestre",module,Magento_Fedex
+"International Priority","Internacional Prioritario",module,Magento_Fedex
+"Intl Priority Freight","Flete de prioridad internacional",module,Magento_Fedex
+"Priority Overnight","Prioridad durante la noche",module,Magento_Fedex
+"Standard Overnight","Estándar de un día para otro",module,Magento_Fedex
+Freight,Mercancías,module,Magento_Fedex
+"National Freight","Mercancía nacional",module,Magento_Fedex
+"Regular Pickup","Recogida ordinaria",module,Magento_Fedex
+"Request Courier","Solicitar servicio de mensajería",module,Magento_Fedex
+"Drop Box",Buzón,module,Magento_Fedex
+"Business Service Center","Centro de servicios comerciales",module,Magento_Fedex
+Station,Central,module,Magento_Fedex
+"FedEx Envelope","Sobre de FedEx",module,Magento_Fedex
+"FedEx Pak","Paquete de FedEx",module,Magento_Fedex
+"FedEx Box","Caja de FedEx",module,Magento_Fedex
+"FedEx Tube","Tubo de FedEx",module,Magento_Fedex
+"FedEx 10kg Box","Caja de 10 Kg. de FedEx",module,Magento_Fedex
+"FedEx 25kg Box","Caja de 25 Kg. de FedEx",module,Magento_Fedex
+"Your Packaging","Su embalaje",module,Magento_Fedex
+"Not Required","No requerido",module,Magento_Fedex
+Adult,Adulto,module,Magento_Fedex
+Direct,Directo,module,Magento_Fedex
+Indirect,Indirecto,module,Magento_Fedex
+status,estado,module,Magento_Fedex
+"Empty response","Respuesta vacía",module,Magento_Fedex
 None,Ninguno,module,Magento_Fedex
+"Unknown entity type","Tipo de entidad desconocido",module,Magento_GiftMessage
 From,De,module,Magento_GiftMessage
 To,Para,module,Magento_GiftMessage
 Message,Mensaje,module,Magento_GiftMessage
 Cancel,Cancelar,module,Magento_GiftMessage
 OK,Aceptar,module,Magento_GiftMessage
+"Gift Options","Opciones de regalo",module,Magento_GiftMessage
+"Gift Message","Mensaje de regalo",module,Magento_GiftMessage
+"Do you have any gift items in your order?","¿Tiene artículos de regalo en su pedido?",module,Magento_GiftMessage
+"Add gift options","Añadir opciones de regalo",module,Magento_GiftMessage
+"Gift Options for the Entire Order","Opciones de regalo para todo el pedido",module,Magento_GiftMessage
+"Gift Options for Individual Items","Opciones de regalo para artículos individuales",module,Magento_GiftMessage
+"Add gift options for Individual Items","Añadir opciones de regalo para artículos individuales",module,Magento_GiftMessage
+Dynamic,Dinámico,module,Magento_GoogleAdwords
+Constant,Constante,module,Magento_GoogleAdwords
+"Conversion Color value is not valid ""%1"". Please set hexadecimal 6-digit value.","El valor de conversión de color ""%1"" no es válido. Configure un valor hexadecimal de 6 dígitos.",module,Magento_GoogleAdwords
+"Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","El valor Id de conversión ""%1"" no es valido. Id de conversión debe ser un entero.",module,Magento_GoogleAdwords
+"Product View Optimization","Optimización de la vista del producto",module,Magento_GoogleOptimizer
+"Page View Optimization","Optimización de la vista de página",module,Magento_GoogleOptimizer
+"Google Analytics Content Experiments Code","Código de experimento de contenido de Google Analytics",module,Magento_GoogleOptimizer
+"Experiment Code","Código experimental",module,Magento_GoogleOptimizer
+"Category View Optimization","Optimización de la vista de categoría",module,Magento_GoogleOptimizer
+"Grouped Products","Artículos agrupados",module,Magento_GroupedProduct
+"Please specify the quantity of product(s).","Por favor, especifique la cantidad de artículo(s).",module,Magento_GroupedProduct
+"Associated Products","Artículos asociados",module,Magento_GroupedProduct
+Availability:,Disponibilidad:,module,Magento_GroupedProduct
 "Out of stock","Sin stock",module,Magento_GroupedProduct
 "Product Name","Nombre del Producto",module,Magento_GroupedProduct
 Price,Precio,module,Magento_GroupedProduct
 Qty,Cantidad,module,Magento_GroupedProduct
+"No options of this product are available.","No hay opciones disponibles de este artículo.",module,Magento_GroupedProduct
+"There are no grouped products.","No existen artículos agrupados.",module,Magento_GroupedProduct
 Name,Nombre,module,Magento_GroupedProduct
+"Default Qty","Cantidad (predeterminado)",module,Magento_GroupedProduct
 Availability,Disponibilidad,module,Magento_GroupedProduct
 "In stock","En stock",module,Magento_GroupedProduct
+"Grouped product items","Elementos de artículos agrupados",module,Magento_GroupedProduct
 Export,Exportar,module,Magento_ImportExport
+"Export Settings","Exportar la configuración",module,Magento_ImportExport
+"Entity Type","Tipo de datos",module,Magento_ImportExport
+"Export File Format","Exportar el formato de archivo",module,Magento_ImportExport
 From,De,module,Magento_ImportExport
 To,Para,module,Magento_ImportExport
+Exclude,Excluir,module,Magento_ImportExport
+"Attribute Label","Etiqueta de atributo",module,Magento_ImportExport
+"Attribute Code","Código de atributo",module,Magento_ImportExport
+Filter,Filtro,module,Magento_ImportExport
+"Unknown attribute filter type","Tipo de filtro de atributo desconocido",module,Magento_ImportExport
+"Check Data","Verificar los datos",module,Magento_ImportExport
 Import,Importar,module,Magento_ImportExport
+"Import Settings","Importar configuración",module,Magento_ImportExport
+"Import Behavior","Comportamiento de la importación",module,Magento_ImportExport
+"Field separator","Separador de campos",module,Magento_ImportExport
+"Multiple value separator","Separador de valor múltiple",module,Magento_ImportExport
+"File to Import","Archivo a importar",module,Magento_ImportExport
+"Select File to Import","Seleccione archivo para importar",module,Magento_ImportExport
+"Images File Directory","Directorio de archivos de imágenes",module,Magento_ImportExport
+Import/Export,Importar/Exportar,module,Magento_ImportExport
 Status,Estado,module,Magento_ImportExport
+"Import successfully done","Importación realizada correctamente",module,Magento_ImportExport
+"File is valid! To start import process press ""Import"" button","El archivo no es correcto. Para empezar el proceso de importación pulse el botón ""Importar""",module,Magento_ImportExport
+"Checked rows: %1, checked entities: %2, invalid rows: %3, total errors: %4","Controlar filas: %1, entidades marcadas: %2, filas no válidas: %3, total errores: %4",module,Magento_ImportExport
+"The input entity code is not equal to entity adapter code.","El código de la entidad de entrada no es igual al código adaptador de la entidad.",module,Magento_ImportExport
+"Please enter a correct entity.","Introduce una entidad correcta.",module,Magento_ImportExport
+"Please correct the file format.","Por favor corrija el formato del archivo.",module,Magento_ImportExport
+"Begin export of %1","Comenzar la exportación de %1",module,Magento_ImportExport
+"Exported %1 rows.","Se han exportado %1 filas.",module,Magento_ImportExport
+"Please provide filter data.","Por favor proporcione datos de filtro.",module,Magento_ImportExport
+"Entity is unknown","Entidad desconocida",module,Magento_ImportExport
+"Destination file is not writable","No se puede escribir en el archivo de destino",module,Magento_ImportExport
+"Begin import of ""%1"" with ""%2"" behavior","Comenzar la importación de ""%1"" con comportamiento ""%2""",module,Magento_ImportExport
+"Begin data validation","Inicie la validación de los datos",module,Magento_ImportExport
+"Please enter a correct entity model","Introduce un modelo de entidad correcta",module,Magento_ImportExport
+"Adapter must be an instance of \Magento\ImportExport\Model\Import\AbstractSource","Adaptador debe ser una instancia de \Magento\ImportExport\Model\Import\AbstractSource",module,Magento_ImportExport
+"Please specify a source.","Por favor especifique una fuente.",module,Magento_ImportExport
+"Cannot get autoincrement value","No se puede obtener un incremento automático del valor",module,Magento_ImportExport
+"Error in data structure: %1 values are mixed","Error en la estructura de datos: valores %1 se mezclan",module,Magento_ImportExport
 "-- Please Select --","-- Por favor Seleccione --",module,Magento_ImportExport
+label,etiqueta,module,Magento_ImportExport
+Add/Update,Añadir/actualizar,module,Magento_ImportExport
+"Add/Update Complex Data","Añadir/actualizar datos complejos",module,Magento_ImportExport
+"Delete Entities","Borrar Entidades",module,Magento_ImportExport
+"Custom Action","Acción personalizada",module,Magento_ImportExport
+"Entity Attributes","Atributos de la entidad",module,Magento_ImportExport
 Continue,Continuar,module,Magento_ImportExport
+"Validation Results","Resultados de la validación",module,Magento_ImportExport
+"Indexer Management","Administrar Indexer",module,Magento_Indexer
+"Update by Schedule","Actualizar por agenda",module,Magento_Indexer
+"Update on Save","Actualizar al guardar",module,Magento_Indexer
+"Reindex required","Reindexado requerido",module,Magento_Indexer
 Ready,Listo,module,Magento_Indexer
 Processing,Procesando,module,Magento_Indexer
 Never,Nunca,module,Magento_Indexer
+"Index Management","Gestión de índices",module,Magento_Indexer
+"Please select indexers.","Por favor seleccione indexadores.",module,Magento_Indexer
+"We couldn't change indexer(s)' mode because of an error.","No pudimos cambiar los indexadores debido a un error.",module,Magento_Indexer
+"State for the same indexer","Estado para el mismo indexador",module,Magento_Indexer
+"State for the same view","Estado para la misma vista",module,Magento_Indexer
+Integrations,Integraciones,module,Magento_Integration
+"Add New Integration","Añadir nueva integración",module,Magento_Integration
 Save,Guardar,module,Magento_Integration
+"Save & Activate","Guardar y activar",module,Magento_Integration
+"New Integration","Nueva integración",module,Magento_Integration
+"Edit Integration '%1'","Editar integración '%1'",module,Magento_Integration
+"Integration Info","Información de integración",module,Magento_Integration
 Name,Nombre,module,Magento_Integration
 Email,"Correo electrónico",module,Magento_Integration
+"Callback URL","Llamada URL",module,Magento_Integration
+"Enter URL where Oauth credentials can be sent when using Oauth for token exchange. We strongly recommend using https://.","Introduzca la URL donde pueden enviarse las credenciales Oauth cuando se utiliza el intercambio de token Oauth. Recomendamos ampliamente usar https://.",module,Magento_Integration
+"Identity link URL","URL de enlace de identidad",module,Magento_Integration
+"URL to redirect user to link their 3rd party account with this Magento integration credentials.","URL redirect usuario vincular su cuenta de partido 3 con este credenciales de integración de Magento.",module,Magento_Integration
+"Integration Details","Detalles de la integración",module,Magento_Integration
+"Basic Settings","Configuración Básica",module,Magento_Integration
+"Integration Tokens for Extensions","Tokens de integración para las extensiones",module,Magento_Integration
+"Consumer Key","Clave del consumidor",module,Magento_Integration
+"Consumer Secret","Secreto de consumidor",module,Magento_Integration
+"Access Token","Token de acceso de",module,Magento_Integration
+"Uninstall the extension to remove this integration","Desinstalar la extensión para eliminar esta integración",module,Magento_Integration
 Remove,Quitar,module,Magento_Integration
 View,Ver,module,Magento_Integration
 Edit,Editar,module,Magento_Integration
 Activate,Activar,module,Magento_Integration
+Reauthorize,Reautorizar,module,Magento_Integration
+"Uninstall the extension to remove integration '%1'.","Desinstalar la extensión para eliminar la integración '%1'.",module,Magento_Integration
+"This integration no longer exists.","Esta integración no existe.",module,Magento_Integration
+"The integration '%1' has been deleted.","La integración de '%1' ha sido eliminada.",module,Magento_Integration
+"Integration ID is not specified or is invalid.","Identificación de la integración no se especifica o no es válido.",module,Magento_Integration
+"Internal error. Check exception log for details.","Error interno. Compruebe el registro de excepción para los detalles.",module,Magento_Integration
+"View ""%1"" Integration","Ver integración de ""%1""",module,Magento_Integration
+"Edit ""%1"" Integration","Editar la integración de ""%1""",module,Magento_Integration
+"Warning! Integrations not using HTTPS are insecure and potentially expose private or personally identifiable information","¡ ADVERTENCIA! Integraciones no usando HTTPS son inseguras y potencialmente exponen información privada o personal",module,Magento_Integration
+"The integration was not saved.","La integración no se ha guardado.",module,Magento_Integration
+"The integration '%1' has been re-authorized.","La integración de '%1' ha sido nuevamente autorizada.",module,Magento_Integration
+"The integration '%1' has been activated.","La integración de '%1' se ha activado.",module,Magento_Integration
+"Integration '%1' has been sent for re-authorization.","Integración '%1' ha sido enviado para su autorización.",module,Magento_Integration
+"Integration '%1' has been sent for activation.","Integración '%1' ha sido enviado para la activación.",module,Magento_Integration
 Inactive,Inactivo,module,Magento_Integration
 Active,Activo,module,Magento_Integration
+"Invalid Callback URL","Llamada URL inválida",module,Magento_Integration
+"Invalid Rejected Callback URL","Llamada URL rechazada inválida",module,Magento_Integration
+"A consumer with ID %1 does not exist","No existe un consumidor con ID %1",module,Magento_Integration
 Position,Posición,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Posición de atributo en el bloque de navegación en capas",module,Magento_LayeredNavigation
 Previous,Anterior,module,Magento_LayeredNavigation
@@ -1915,6 +2159,8 @@ OK,Aceptar,module,Magento_Catalog
 "unselect all","deseleccionar todo",module,Magento_Catalog
 "Incl. Tax","Incl. impuestos",module,Magento_ConfigurableProduct
 "Are you sure you want to delete this address?","¿Realmente quiere borrar esta dirección?",module,Magento_Customer
+"Add Products to Group","Agregar artículos al grupo",module,Magento_GroupedProduct
+"Add Selected Products","Añadir los artículos seleccionados",module,Magento_GroupedProduct
 Allow,Permitir,module,Magento_Integration
 Done,Listo,module,Magento_Integration
 "Add Products","Agregar Productos",module,Magento_Sales
@@ -2349,17 +2595,65 @@ Service,Servicio,module,Magento_Directory
 "Use Content-Disposition","Utilizar Contenido-Disposición",module,Magento_Downloadable
 "Disable Guest Checkout if Cart Contains Downloadable Items","Deshabilitar la facturación para visitantes si el carrito contiene artículos descargables",module,Magento_Downloadable
 "Guest checkout will only work with shareable.","La facturación con visitantes sólo funcionará si se puede compartir.",module,Magento_Downloadable
+"EAV types and attributes","Atributos y tipos EAV",module,Magento_Eav
 "Entity types declaration cache.","Caché de declaración de tipos de entidad.",module,Magento_Eav
+"No Templates Found","No se encontraron plantillas",module,Magento_Email
+Added,Añadido,module,Magento_Email
+Updated,Actualizado,module,Magento_Email
+Subject,Asunto,module,Magento_Email
+"Template Type","Tipo de plantilla",module,Magento_Email
 Action,Acción,module,Magento_Email
+"Enabled for Checkout","Habilitado para el proceso de pago",module,Magento_Fedex
 Title,Título,module,Magento_Fedex
+"Account ID","ID de cuenta",module,Magento_Fedex
+"Please make sure to use only digits here. No dashes are allowed.","Por favor, asegúrese de introducir solamente dígitos. No se pueden utilizar guiones.",module,Magento_Fedex
+"Meter Number","Número de contador",module,Magento_Fedex
+Key,Clave,module,Magento_Fedex
 Password,Contraseña,module,Magento_Fedex
+"Sandbox Mode","Modo de prueba",module,Magento_Fedex
+"Web-Services URL (Production)","Web-Services URL (Producción)",module,Magento_Fedex
+"Packages Request Type","Tipo de solicitud de paquetes",module,Magento_Fedex
+Packaging,Embalaje,module,Magento_Fedex
+Dropoff,"De entrega",module,Magento_Fedex
+"Maximum Package Weight (Please consult your shipping carrier for maximum supported shipping weight)","Peso máximo del paquete (Por favor, consulte a su transportista para la carga máxima soportada)",module,Magento_Fedex
+"Calculate Handling Fee","Calcular el gastos de envío",module,Magento_Fedex
+"Handling Applied","Gastos de tramitación aplicados",module,Magento_Fedex
+"Handling Fee","Gastos de tramitación",module,Magento_Fedex
+"Residential Delivery","Entrega residencial",module,Magento_Fedex
+"Allowed Methods","Métodos permitidos",module,Magento_Fedex
+"Hub ID","ID de hub",module,Magento_Fedex
+"The field is applicable if the Smart Post method is selected.","El campo es aplicable si se selecciona el método de publicación inteligente.",module,Magento_Fedex
+"Free Method","Método gratuito",module,Magento_Fedex
+"Free Shipping Amount Threshold","Envío gratuito cantidad umbral",module,Magento_Fedex
+"Displayed Error Message","Mensaje de error mostrado",module,Magento_Fedex
+"Ship to Applicable Countries","Envío a países aplicables",module,Magento_Fedex
+"Ship to Specific Countries","Envío a países específicos",module,Magento_Fedex
 Debug,Depurar,module,Magento_Fedex
+"Show Method if Not Applicable","Mostrar el método de envío, incluso si no se aplica",module,Magento_Fedex
+"Sort Order","Tipo de orden",module,Magento_Fedex
+"Allow Gift Messages on Order Level","Permitir mensajes de regalo en nivel de pedido",module,Magento_GiftMessage
+"Allow Gift Messages for Order Items","Permitir mensajes de regalo en artículos pedidos",module,Magento_GiftMessage
 Enable,Habilitar,module,Magento_GoogleAdwords
+"Conversion ID","ID de conversión",module,Magento_GoogleAdwords
+"Conversion Language","Conversión de Lenguaje",module,Magento_GoogleAdwords
+"Conversion Format","Formato de conversión",module,Magento_GoogleAdwords
+"Conversion Color","Conversión de color",module,Magento_GoogleAdwords
+"Conversion Label","Conversión de etiqueta",module,Magento_GoogleAdwords
+"Conversion Value Type","Tipo de valor de conversión",module,Magento_GoogleAdwords
+"Conversion Value","Valor de conversión",module,Magento_GoogleAdwords
 Enable,Habilitar,module,Magento_GoogleAnalytics
 "Account Number","Número de Cuenta",module,Magento_GoogleAnalytics
+"Enable Content Experiments","Habilitar contenidos experimentales",module,Magento_GoogleOptimizer
+"Grouped Product Image","Imagen de artículo agrupado",module,Magento_GroupedProduct
+"Start Date&Time","Fecha y hora de inicio",module,Magento_ImportExport
+"Imported File","Archivo importado",module,Magento_ImportExport
+"Error File","Archivo de Error",module,Magento_ImportExport
+"Execution Time","Tiempo de ejecución",module,Magento_ImportExport
+Indexer,Indexador,module,Magento_Indexer
 Description,Descripción,module,Magento_Indexer
 Mode,Modo,module,Magento_Indexer
 Status,Estado,module,Magento_Indexer
+Updated,Actualizado,module,Magento_Indexer
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
 "No Integrations Found","No hay integraciones encontradas",module,Magento_Integration
 Status,Estado,module,Magento_Integration
