@@ -2597,10 +2597,39 @@ Active,Activo,module,Magento_Integration
 "The nonce is already being used by the consumer with ID %1","El nonce ya está siendo utilizado por el consumidor con ID %1",module,Magento_Integration
 "An error occurred validating the nonce","Error al validar el nonce",module,Magento_Integration
 "Cannot convert to access token due to token is not request type","No se puede convertir a access token a token es el tipo de solicitud no",module,Magento_Integration
+"Consumer key has expired","La clave de consumidor ha caducado",module,Magento_Integration
+"Cannot create request token because consumer token is not a verifier token","No se puede crear el token de petición porque token de consumidor no es un símbolo de verificador",module,Magento_Integration
+"Request token is not associated with the specified consumer","Solicitud de símbolo (token) no está asociado con el consumo especificado",module,Magento_Integration
+"Token is already being used","Símbolo (token) ya está siendo utilizado",module,Magento_Integration
+"Cannot get access token because consumer token is not a request token","No puede obtener el token de acceso porque token de consumidor no es un token de petición",module,Magento_Integration
+"Token is not associated with the specified consumer","Símbolo (token) no está asociado con el consumo especificado",module,Magento_Integration
+"Token is not an access token","Símbolo (token) no es un token de acceso",module,Magento_Integration
+"Access token has been revoked","Token de acceso se ha revocado",module,Magento_Integration
+"Consumer key is not the correct length","Clave del consumidor no tiene la longitud correcta",module,Magento_Integration
+"A consumer having the specified key does not exist","Un consumidor tiene la clave especificada no existe",module,Magento_Integration
+"Verifier is invalid","Verificador no es válido",module,Magento_Integration
+"Verifier is not the correct length","Verificador no tiene la longitud correcta",module,Magento_Integration
+"Token verifier and verifier token do not match","Contador de verificador y verificador de tokens no coinciden",module,Magento_Integration
+"A consumer with the ID %1 does not exist","No existe un consumidor con ID %1",module,Magento_Integration
+"Token is not the correct length","Token no tiene la longitud correcta",module,Magento_Integration
+"Specified token does not exist","Token especificado no existe",module,Magento_Integration
+"A token with consumer ID %1 does not exist","No existe un símbolo con consumidor ID %1",module,Magento_Integration
+"Unexpected error. Unable to create oAuth consumer account.","Error inesperado. No se puede crear cuenta oAuth para el consumidor.",module,Magento_Integration
+"Unexpected error. Unable to load oAuth consumer account.","Error inesperado. No se puede crear cuenta oAuth para el consumidor.",module,Magento_Integration
 "A consumer with ID %1 does not exist","No existe un consumidor con ID %1",module,Magento_Integration
+"Unable to post data to consumer due to an unexpected error","No se puede publicar datos al consumidor debido a un error inesperado",module,Magento_Integration
 "Consumer with ID '%1' does not exist.","Consumidor con ID '%1' no existe.",module,Magento_Integration
+"Invalid token to except","Código no válido para excepción",module,Magento_Integration
+"A token with consumer ID 0 does not exist","No existe un símbolo con consumidor ID %1",module,Magento_Integration
+"The integration you selected asks you to approve access to the following:","La integración que ha seleccionado te pide para aprobar el acceso a los siguientes:",module,Magento_Integration
+"No permissions requested","No hay permisos solicitados",module,Magento_Integration
+"Are you sure ?","¿Estás seguro ?",module,Magento_Integration
+"Please setup or sign in into your 3rd party account to complete setup of this integration.","Por favor configurar o Identifícate en tu cuenta de partido 3 para completar la instalación de esta integración.",module,Magento_Integration
+"Available APIs","APIs disponibles",module,Magento_Integration
+"Resource Access","Acceso a los recursos",module,Magento_Integration
 Custom,Personalizado,module,Magento_Integration
 All,Todos,module,Magento_Integration
+Resources,Recursos,module,Magento_Integration
 Position,Posición,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Posición de atributo en el bloque de navegación en capas",module,Magento_LayeredNavigation
 Previous,Anterior,module,Magento_LayeredNavigation
@@ -3347,6 +3376,7 @@ Done,Listo,module,Magento_ConfigurableProduct
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Downloadable
 "Add Products to Group","Agregar artículos al grupo",module,Magento_GroupedProduct
 "Add Selected Products","Añadir los artículos seleccionados",module,Magento_GroupedProduct
+"Sorry, something went wrong. Please try again later.","Lo sentimos, algo salió mal. Por favor Inténtalo más tarde.",module,Magento_Integration
 Allow,Permitir,module,Magento_Integration
 Done,Listo,module,Magento_Integration
 "We can't complete your order because you don't have a payment method set up.","Nosotros no podemos completar el pedido porque no tienes forma de pago establecida.",module,Magento_Multishipping
@@ -3965,7 +3995,15 @@ Description,Descripción,module,Magento_Indexer
 Mode,Modo,module,Magento_Indexer
 Status,Estado,module,Magento_Indexer
 Updated,Actualizado,module,Magento_Indexer
+"Cleanup Settings","Ajustes de limpieza",module,Magento_Integration
+"Cleanup Probability","Probabilidad de limpieza",module,Magento_Integration
+"Expiration Period","Período de expiración",module,Magento_Integration
+"Consumer Settings","Configuración del consumidor",module,Magento_Integration
+"OAuth consumer credentials HTTP Post maxredirects","OAuth consumidores credenciales maxredirects HTTP Post",module,Magento_Integration
+"OAuth consumer credentials HTTP Post timeout","Tiempo de espera de OAuth consumidores credenciales HTTP Post",module,Magento_Integration
+"Integrations Configuration","Configuración de integraciones",module,Magento_Integration
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
+"Integrations API Configuration","Configuración de integraciones API",module,Magento_Integration
 "Integrations API configuration file.","Archivo de configuración de integraciones API.",module,Magento_Integration
 "No Integrations Found","No hay integraciones encontradas",module,Magento_Integration
 Status,Estado,module,Magento_Integration
