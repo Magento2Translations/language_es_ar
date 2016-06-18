@@ -1714,11 +1714,38 @@ Active,Activo,module,Magento_Integration
 "Are you sure ?","¿Estás seguro ?",module,Magento_Integration
 "Are you sure you want to delete this integration? You can't undo this action.","¿Está seguro que desea eliminar esta integración? No se puede deshacer esta acción.",module,Magento_Integration
 "Please setup or sign in into your 3rd party account to complete setup of this integration.","Por favor configurar o Identifícate en tu cuenta de partido 3 para completar la instalación de esta integración.",module,Magento_Integration
+"Filterable (with results)","Filtrable (con resultados)",module,Magento_LayeredNavigation
+"Filterable (no results)","Filtrable (sin resultados)",module,Magento_LayeredNavigation
+"Use in Layered Navigation","Usar en navegación por capas",module,Magento_LayeredNavigation
+"Can be used only with catalog input type Dropdown, Multiple Select and Price","Sólo puede utilizarse con los tipos de entrada de catálogo lista desplegable, selección múltiple y precio",module,Magento_LayeredNavigation
 Position,Posición,module,Magento_LayeredNavigation
+"Position in Layered Navigation","Posición de navegación en capas",module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Posición de atributo en el bloque de navegación en capas",module,Magento_LayeredNavigation
 Previous,Anterior,module,Magento_LayeredNavigation
+"Remove This Item","Eliminar este artículo",module,Magento_LayeredNavigation
+"Shop By","Comprar por",module,Magento_LayeredNavigation
 "Clear All","Borrar todo",module,Magento_LayeredNavigation
+"Shopping Options","Opciones de compra",module,Magento_LayeredNavigation
+"Magento Marketplace","Mercado de Magento",module,Magento_Marketplace
+"Platinum Partners","Socios platino",module,Magento_Marketplace
+"Featured Platinum Partners","Socios platino recomendados",module,Magento_Marketplace
+"Partner search","Búsqueda de socios",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento tiene un próspero ecosistema de socios tecnológicos para ayudar a los comerciantes y marcas a proporcionar la mejor experiencia posible a sus clientes. Ellos son reconocidos como expertos en comercio electrónico, búsqueda, marketing por correo electrónico, pagos de impuestos, el fraude, la optimización, análisis y mucho más. Visita el directorio de socios de Magento para ver todos nuestros socios de confianza.",module,Magento_Marketplace
+"More Partners","Más socios",module,Magento_Marketplace
+"Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","Extensiones y temas son un componente esencial del ecosistema Magento. Visite el mercado de Magento para ver las últimas novedades que los desarrolladores han creado para mejorar su tienda Magento.",module,Magento_Marketplace
+"Visit Magento Marketplaces","Visitar el mercado de Magento",module,Magento_Marketplace
+"Read More","Leer más",module,Magento_Marketplace
+"Partner Page","Página de socio",module,Magento_Marketplace
+"No partners were found","No se encontraron socios",module,Magento_Marketplace
+"File %1 does not exist","El archivo %1 no existe",module,Magento_MediaStorage
+"File %1 is not readable","El archivo %1 no se puede leer",module,Magento_MediaStorage
+"Parent directory does not exist: %1","El directorio padre no existe: %1",module,Magento_MediaStorage
 "File system","Sistema de archivos",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","No se puede guardar el archivo ""%1"" en ""%2""",module,Magento_MediaStorage
+"Wrong file info format","Formato de información del archivo incorrecto",module,Magento_MediaStorage
+"Please set available and/or protected paths list(s) before validation.","Por favor, indique la(s) lista(s) de rutas disponibles y/o protegidas antes de la validación.",module,Magento_MediaStorage
+"Unable to create directory: %1","No se puede crear el directorio: %1",module,Magento_MediaStorage
+"Unable to save file: %1","No se puede guardar el archivo: %1",module,Magento_MediaStorage
 Product,Producto,module,Magento_Multishipping
 Qty,Cantidad,module,Magento_Multishipping
 "Send To","Enviar a",module,Magento_Multishipping
@@ -2669,6 +2696,16 @@ Updated,Actualizado,module,Magento_Indexer
 "Integration configuration file.","Archivo de configuración de integración.",module,Magento_Integration
 "No Integrations Found","No hay integraciones encontradas",module,Magento_Integration
 Status,Estado,module,Magento_Integration
+"Layered Navigation","Navegación en capas",module,Magento_LayeredNavigation
+"Display Product Count","Mostrar el número de artículo",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation","Cálculo de paso de navegación de precios",module,Magento_LayeredNavigation
+"Default Price Navigation Step","Paso de navegación de precio por defecto",module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Número máximo de intervalos de precios",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","Número máximo de intervalos de precios es 100",module,Magento_LayeredNavigation
+"Display Price Interval as One Price","Mostrar intervalo de precios como un único precio",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Esta configuración se aplicará cuando todos los precios en el intervalo de precios específicos sean iguales.",module,Magento_LayeredNavigation
+"Interval Division Limit","Límite de división de intervalo",module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","Por favor, especifica el número de artículos, que no será dividido en subintervalos.",module,Magento_LayeredNavigation
 Options,Opciones,module,Magento_Multishipping
 Status,Estado,module,Magento_Newsletter
 Delete,Eliminar,module,Magento_Newsletter
