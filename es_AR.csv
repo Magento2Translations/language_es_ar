@@ -2346,15 +2346,65 @@ Active,Activo,module,Magento_Integration
 Custom,Personalizado,module,Magento_Integration
 All,Todos,module,Magento_Integration
 Resources,Recursos,module,Magento_Integration
+"Filterable (with results)","Filtrable (con resultados)",module,Magento_LayeredNavigation
+"Filterable (no results)","Filtrable (sin resultados)",module,Magento_LayeredNavigation
+"Use in Layered Navigation","Usar en navegación por capas",module,Magento_LayeredNavigation
+"Can be used only with catalog input type Dropdown, Multiple Select and Price","Sólo puede utilizarse con los tipos de entrada de catálogo lista desplegable, selección múltiple y precio",module,Magento_LayeredNavigation
+"Use in Search Results Layered Navigation","Utilizar en la navegación por capas de los resultados de búsqueda",module,Magento_LayeredNavigation
 Position,Posición,module,Magento_LayeredNavigation
+"Position in Layered Navigation","Posición de navegación en capas",module,Magento_LayeredNavigation
+item,artículo,module,Magento_LayeredNavigation
+items,artículos,module,Magento_LayeredNavigation
+"Now Shopping by","Ahora comprando por",module,Magento_LayeredNavigation
 Previous,Anterior,module,Magento_LayeredNavigation
 Remove,Quitar,module,Magento_LayeredNavigation
+"Remove This Item","Eliminar este artículo",module,Magento_LayeredNavigation
+"Shop By","Comprar por",module,Magento_LayeredNavigation
 "Clear All","Borrar todo",module,Magento_LayeredNavigation
+"Shopping Options","Opciones de compra",module,Magento_LayeredNavigation
+Partners,Socios,module,Magento_Marketplace
+"Magento Marketplace","Mercado de Magento",module,Magento_Marketplace
+"Platinum Partners","Socios platino",module,Magento_Marketplace
+"Featured Platinum Partners","Socios platino recomendados",module,Magento_Marketplace
+"Partner search","Búsqueda de socios",module,Magento_Marketplace
+"Magento has a thriving ecosystem of technology partners to help merchants and brands deliver the best possible customer experiences. They are recognized as experts in eCommerce, search, email marketing, payments, tax, fraud, optimization and analytics, fulfillment, and more. Visit the Magento Partner Directory to see all of our trusted partners.","Magento tiene un próspero ecosistema de socios tecnológicos para ayudar a los comerciantes y marcas a proporcionar la mejor experiencia posible a sus clientes. Ellos son reconocidos como expertos en comercio electrónico, búsqueda, marketing por correo electrónico, pagos de impuestos, el fraude, la optimización, análisis y mucho más. Visita el directorio de socios de Magento para ver todos nuestros socios de confianza.",module,Magento_Marketplace
+"More Partners","Más socios",module,Magento_Marketplace
+"Extensions and Themes are an essential component of the Magento Ecosystem. Please visit the Magento Marketplace to see the latest innovations that developers have created to enhance your Magento Store.","Extensiones y temas son un componente esencial del ecosistema Magento. Visite el mercado de Magento para ver las últimas novedades que los desarrolladores han creado para mejorar su tienda Magento.",module,Magento_Marketplace
+"Visit Magento Marketplaces","Visitar el mercado de Magento",module,Magento_Marketplace
+"Read More","Leer más",module,Magento_Marketplace
+"Partner Page","Página de socio",module,Magento_Marketplace
+"No partners were found","No se encontraron socios",module,Magento_Marketplace
 Synchronize,Sincronizar,module,Magento_MediaStorage
+"Synchronizing %1 to %2","Sincronización de %1 a %2",module,Magento_MediaStorage
+Synchronizing...,Sincronización...,module,Magento_MediaStorage
+"The timeout limit for response from synchronize process was reached.","Se alcanzó el límite de tiempo de espera de respuesta del proceso de sincronización.",module,Magento_MediaStorage
+"File %1 does not exist","El archivo %1 no existe",module,Magento_MediaStorage
+"File %1 is not readable","El archivo %1 no se puede leer",module,Magento_MediaStorage
+"File System","Sistema de archivos",module,Magento_MediaStorage
 Database,"Base de datos",module,Magento_MediaStorage
+"database ""%1""","base de datos ""%1""",module,Magento_MediaStorage
+"Parent directory does not exist: %1","El directorio padre no existe: %1",module,Magento_MediaStorage
 "File system","Sistema de archivos",module,Magento_MediaStorage
+"Unable to save file ""%1"" at ""%2""","No se puede guardar el archivo ""%1"" en ""%2""",module,Magento_MediaStorage
+"Wrong file info format","Formato de información del archivo incorrecto",module,Magento_MediaStorage
+"Path ""%value%"" is protected and cannot be used.","La ruta ""%value%"" está protegida y no se puede utilizar.",module,Magento_MediaStorage
+"Path ""%value%"" is not available and cannot be used.","La ruta ""%value%"" no está disponible y no puede usarse.",module,Magento_MediaStorage
+"Please set available and/or protected paths list(s) before validation.","Por favor, indique la(s) lista(s) de rutas disponibles y/o protegidas antes de la validación.",module,Magento_MediaStorage
+"File with an extension ""%value%"" is protected and cannot be uploaded","El archivo con extensión ""%value%"" está protegido y no se puede subir",module,Magento_MediaStorage
+"Unable to create directory: %1","No se puede crear el directorio: %1",module,Magento_MediaStorage
+"Unable to save file: %1","No se puede guardar el archivo: %1",module,Magento_MediaStorage
+"To see product price, add this item to your cart. You can always remove it later.","Para ver el precio del artículo añade este artículo al carrito. Siempre puedes eliminarlo posteriormente.",module,Magento_Msrp
+"See price before order confirmation.","Ver precio antes de la confirmación del pedido.",module,Magento_Msrp
+"On Gesture","Sobre el gesto",module,Magento_Msrp
+"In Cart","En Carrito",module,Magento_Msrp
+"Before Order Confirmation","Antes de la confirmación del pedido",module,Magento_Msrp
+"Use config","Usar config",module,Magento_Msrp
+"Click for price","Haga click para ver precio",module,Magento_Msrp
 "What's this?","¿Qué es esto?",module,Magento_Msrp
+"Order total will be displayed before you submit the order","El total del pedido se mostrará antes de enviar la orden",module,Magento_Msrp
+"You will see the order total before you submit the order.","Podrás ver el total de la orden antes de enviar el pedido.",module,Magento_Msrp
 Price,Precio,module,Magento_Msrp
+"Actual Price","Precio actual",module,Magento_Msrp
 "Add to Cart","Agregar al Carrito",module,Magento_Msrp
 Product,Producto,module,Magento_Multishipping
 Qty,Cantidad,module,Magento_Multishipping
@@ -3506,6 +3556,26 @@ Updated,Actualizado,module,Magento_Indexer
 "Integrations Configuration","Configuración de integraciones",module,Magento_Integration
 "Integrations API Configuration","Configuración de integraciones API",module,Magento_Integration
 Status,Estado,module,Magento_Integration
+"Layered Navigation","Navegación en capas",module,Magento_LayeredNavigation
+"Display Product Count","Mostrar el número de artículo",module,Magento_LayeredNavigation
+"Price Navigation Step Calculation","Cálculo de paso de navegación de precios",module,Magento_LayeredNavigation
+"Default Price Navigation Step","Paso de navegación de precio por defecto",module,Magento_LayeredNavigation
+"Maximum Number of Price Intervals","Número máximo de intervalos de precios",module,Magento_LayeredNavigation
+"Maximum number of price intervals is 100","Número máximo de intervalos de precios es 100",module,Magento_LayeredNavigation
+"Display Price Interval as One Price","Mostrar intervalo de precios como un único precio",module,Magento_LayeredNavigation
+"This setting will be applied when all prices in the specific price interval are equal.","Esta configuración se aplicará cuando todos los precios en el intervalo de precios específicos sean iguales.",module,Magento_LayeredNavigation
+"Interval Division Limit","Límite de división de intervalo",module,Magento_LayeredNavigation
+"Please specify the number of products, that will not be divided into subintervals.","Por favor, especifica el número de artículos, que no será dividido en subintervalos.",module,Magento_LayeredNavigation
+"Storage Configuration for Media","Configuración del almacenamiento de medios",module,Magento_MediaStorage
+"Media Storage","Almacenamiento de medios",module,Magento_MediaStorage
+"Select Media Database","Seleccionar banco de datos para medios",module,Magento_MediaStorage
+"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Después de seleccionar una nueva ubicación de almacenamiento de medios, pulse el botón sincronizar para transferir todos los medios a esa ubicación. Los medios no estarán disponibles en la nueva locación hasta que se complete el proceso de sincronización.",module,Magento_MediaStorage
+"Environment Update Time","Intervalo de actualización del entorno",module,Magento_MediaStorage
+"Minimum Advertised Price","Precio mínimo anunciado",module,Magento_Msrp
+"Enable MAP","Habilitar MAP",module,Magento_Msrp
+"Display Actual Price","Mostrar precio actual",module,Magento_Msrp
+"Default Popup Text Message","Mensaje popup (predeterminado)",module,Magento_Msrp
+"Default ""What's This"" Text Message","""¿Qué es esto?"" mensaje (predeterminado)",module,Magento_Msrp
 Options,Opciones,module,Magento_Multishipping
 Status,Estado,module,Magento_Newsletter
 Delete,Eliminar,module,Magento_Newsletter
