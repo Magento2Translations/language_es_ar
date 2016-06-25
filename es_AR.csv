@@ -2998,7 +2998,7 @@ Sales,Ventas,module,Magento_Sales
 "You updated the order address.","Había actualizada la dirección de la orden.",module,Magento_Sales
 "You have not canceled the item.","No han cancelado el artículo.",module,Magento_Sales
 "You canceled the order.","Ha cancelado el pedido.",module,Magento_Sales
-"""%1"" coupon code is not valid.","El código de cupón ""%s"" no es válido.",module,Magento_Sales
+"""%1"" coupon code is not valid.","El código de cupón ""%1"" no es válido.",module,Magento_Sales
 "The coupon code has been accepted.","El código del cupón se ha aceptado.",module,Magento_Sales
 "Quote item id is not received.","El artículo indicado no se ha recibido.",module,Magento_Sales
 "Quote item is not loaded.","El artículo indicado no está cargado.",module,Magento_Sales
