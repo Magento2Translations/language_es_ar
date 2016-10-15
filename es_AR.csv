@@ -385,7 +385,7 @@ Type,Tipo,module,Magento_Braintree
 Actions,Acciones,module,Magento_Braintree
 Yes,Si,module,Magento_Braintree
 Edit,Editar,module,Magento_Braintree
-"Percent Discount","Porcentajde de Descuentos",module,Magento_Bundle
+"Percent Discount","Porcentaje de descuento",module,Magento_Bundle
 "-- Select --","-- Seleccione --",module,Magento_Bundle
 Dynamic,Dinámico,module,Magento_Bundle
 Fixed,Fijo,module,Magento_Bundle
@@ -3947,6 +3947,12 @@ None,Ninguno,module,Magento_Usps
 "Variable Code must be unique.","El código de variable debe ser único.",module,Magento_Variable
 "Validation has failed.","Validación ha fallado.",module,Magento_Variable
 "Insert Variable...","Insertar variable...",module,Magento_Variable
+"Request does not match any route.","La solicitud no coincide con ninguna ruta.",module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","No se permiten los siguientes parámetros: %1. Favor de usar únicamente %2 y %3.",module,Magento_Webapi
+"Requested service is not available: ""%1""","El servicio solicitado no se encuentra disponible: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","Operación ""%1"" no encontrada.",module,Magento_Webapi
+"Invalid XML","XML no válido",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","XML no válido: Se ha detectado un DOCTYPE ilegal",module,Magento_Webapi
 "Add Tax","Añadir impuestos",module,Magento_Weee
 "Delete Tax","Eliminar impuesto",module,Magento_Weee
 "All Websites","Todos los sitios web",module,Magento_Weee
@@ -5256,6 +5262,7 @@ Machinable,Manufacturable,module,Magento_Usps
 Debug,Depurar,module,Magento_Usps
 "Show Method if Not Applicable","Mostrar el método de envío, incluso si no se aplica",module,Magento_Usps
 "Sort Order",Ordenación,module,Magento_Usps
+"Web Services Configuration","Configuración de servicios web",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","Ajustes REST y SOAP, archivo WSDL generado.",module,Magento_Webapi
 "Fixed Product Taxes","Impuestos fijos del artículo",module,Magento_Weee
 "Enable FPT","Habilitar FPT",module,Magento_Weee
