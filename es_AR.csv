@@ -3947,6 +3947,7 @@ None,Ninguno,module,Magento_Usps
 "Variable Code must be unique.","El código de variable debe ser único.",module,Magento_Variable
 "Validation has failed.","Validación ha fallado.",module,Magento_Variable
 "Insert Variable...","Insertar variable...",module,Magento_Variable
+"Operation allowed only in HTTPS","spanish translate",module,Magento_Webapi
 "Request does not match any route.","La solicitud no coincide con ninguna ruta.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","No se permiten los siguientes parámetros: %1. Favor de usar únicamente %2 y %3.",module,Magento_Webapi
 "Requested service is not available: ""%1""","El servicio solicitado no se encuentra disponible: ""%1""",module,Magento_Webapi
