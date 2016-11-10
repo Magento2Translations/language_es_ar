@@ -1718,6 +1718,7 @@ Import,Importar,module,Magento_CurrencySymbol
 "All valid rates have been saved.","Todas las tarifas válidas han sido guardadas.",module,Magento_CurrencySymbol
 System,Sistema,module,Magento_CurrencySymbol
 "You applied the custom currency symbols.","Aplicaste los símbolos de moneda personalizados.",module,Magento_CurrencySymbol
+"You must first configure currency options before being able to see currency rates.","spanish translate",module,Magento_CurrencySymbol
 "Old rate:","Precio antiguo:",module,Magento_CurrencySymbol
 "Please specify a website.","Por favor especifique un sitio Web.",module,Magento_CustomerImportExport
 "Please specify an email.","Por favor especifique un correo electrónico.",module,Magento_CustomerImportExport
@@ -2718,6 +2719,7 @@ Never,Nunca,module,Magento_Indexer
 "One or more <a href=""%1"">indexers are invalid</a>. Make sure your <a href=""%2"" target=""_blank"">Magento cron job</a> is running.","Uno o más de los <a href=""%1"">indexadores son inválidos</a>. Asegúrese que su <a href=""%2"" target=""_blank""> Magento cron de trabajo</a> se esta ejecutando.",module,Magento_Indexer
 "State for the same indexer","Estado para el mismo indexador",module,Magento_Indexer
 "State for the same view","Estado para la misma vista",module,Magento_Indexer
+"Field '%1' not found","spanish translate",module,Magento_Indexer
 "Some Exception Message","Un mensaje de excepción",module,Magento_Indexer
 "Test Phrase","Frase de prueba",module,Magento_Indexer
 Integrations,Integraciones,module,Magento_Integration
@@ -5663,6 +5665,8 @@ Type,Tipo,module,Magento_Vault
 ending,finalizando,module,Magento_Vault
 Actions,Acciones,module,Magento_Vault
 Delete,Eliminar,module,Magento_Vault
+"Consumer is not authorized to access %resources","Spanish translate",module,Magento_Webapi
+"Operation allowed only in HTTPS","spanish translate",module,Magento_Webapi
 "Cannot perform GET operation with store code 'all'","No se puede realizar la operación GET con código de tienda 'todo'",module,Magento_Webapi
 "Request does not match any route.","La solicitud no coincide con ninguna ruta.",module,Magento_Webapi
 "Not allowed parameters: %1. Please use only %2 and %3.","No se permiten los siguientes parámetros: %1. Favor de usar únicamente %2 y %3.",module,Magento_Webapi
@@ -5988,6 +5992,7 @@ Delete,Eliminar,module,Magento_GiftMessage
 "Sitemap generate Warnings","El mapa del sitio web genera alertas",module,Magento_Sitemap
 "Sitemap Generation Warnings","Advertencias de generación de Sitemap",module,Magento_Sitemap
 "Changes have been made to this section that have not been saved.","Se han efectuado cambios a esta sección que no se han guardado.",module,Magento_Ui
+"This tab contains invalid data. Please resolve this before saving.","spanish translate",module,Magento_Ui
 Assign,Asignar,module,Magento_Ui
 Options,Opciones,module,Magento_Ui
 "records found","registros encontrados",module,Magento_Ui
@@ -7856,6 +7861,8 @@ Name,Nombre,module,Magento_Variable
 "Manage Customers","Administrar clientes",module,Magento_Webapi
 "Create Customer","Registrar cliente",module,Magento_Webapi
 "Edit Customer","Editar cliente",module,Magento_Webapi
+"Get Customer","spanish translate",module,Magento_Webapi
+"Delete Customer","spanish translate",module,Magento_Webapi
 "Web Services Configuration","Configuración de servicios web",module,Magento_Webapi
 "Fixed Product Taxes","Impuestos fijos del artículo",module,Magento_Weee
 "Enable FPT","Habilitar FPT",module,Magento_Weee
