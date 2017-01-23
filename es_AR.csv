@@ -492,6 +492,7 @@ Delete,Eliminar,module,Magento_Bundle
 "Child with specified sku: ""%1"" already assigned to product: ""%2""","Subproducto con el sku especificado: ""%1"" ya asignado al producto: ""%2""",module,Magento_Bundle
 "Product with specified sku: %1 is not a bundle product","Artículo con determinado sku: %1 no es un artículo de paquete",module,Magento_Bundle
 "Requested bundle option product doesn't exist","Solicitada producto, la opción de paquete no existe",module,Magento_Bundle
+"%fieldName is a required field.","%fieldName es un campo obligatorio.",module,Magento_Bundle
 "Requested option doesn't exist","Opción solicitada no existe",module,Magento_Bundle
 "Cannot delete option with id %1","No se puede eliminar la opción con id %1",module,Magento_Bundle
 "Could not save option","No se puede guardar la opción",module,Magento_Bundle
@@ -910,6 +911,7 @@ Categories,Categorías,module,Magento_Catalog
 "Please make sure to define SKU values for all processed products.","Por favor, asegúrese de definir valores de SKU para todos los productos procesados.",module,Magento_Catalog
 "A total of %1 record(s) were updated.","Un total de %1 registro(s) fueron actualizados.",module,Magento_Catalog
 "Something went wrong while updating the product(s) attributes.","Algo salió mal al actualizar los atributos del producto.",module,Magento_Catalog
+"Unable to add attribute","No se puede agregar el atributo",module,Magento_Catalog
 "Please, specify attributes","Por favor, especifique los atributos",module,Magento_Catalog
 Catalog,Catálogo,module,Magento_Catalog
 "Manage Product Attributes","Gestionar atributos del artículo",module,Magento_Catalog
@@ -1127,6 +1129,8 @@ Select...,Seleccionar...,module,Magento_Catalog
 To,Para,module,Magento_Catalog
 Done,Listo,module,Magento_Catalog
 "Add Selected","Añadir seleccionado",module,Magento_Catalog
+"Select Attribute","Seleccionar atributo",module,Magento_Catalog
+"Create New Attribute","Crear nuevo atributo",module,Magento_Catalog
 "Customizable Options","Opciones personalizables",module,Magento_Catalog
 "Custom options let customers choose the product variations they want.","Las opciones personalizadas permiten al comprador de elegir la variante de producto que quieren.",module,Magento_Catalog
 "Add Option","Agregar opción",module,Magento_Catalog
