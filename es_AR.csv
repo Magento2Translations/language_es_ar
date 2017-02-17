@@ -436,28 +436,6 @@ Authorize,Autorizar,module,Magento_Braintree
 "Authorize and Capture","Autorizar y capturar",module,Magento_Braintree
 "--Please Select--","--Por favor Seleccione--",module,Magento_Braintree
 "Please agree to all the terms and conditions before placing the order.","Por favor, debe estar de acuerdo con todos los términos y condiciones antes de realizar el pedido.",module,Magento_Braintree
-"Paypal account","Cuenta de PayPal",module,Magento_Braintree
-"Coinbase account","Cuenta Coinbase",module,Magento_Braintree
-"Europe bank account","Cuenta bancaria de Europa",module,Magento_Braintree
-"Credit card","Tarjeta de crédito",module,Magento_Braintree
-"Apple pay card","Tarjeta de pago de Apple",module,Magento_Braintree
-"Android pay card","Tarjeta de pago Android",module,Magento_Braintree
-"Authorization expired","Autorización caducada",module,Magento_Braintree
-Authorizing,Autorizando,module,Magento_Braintree
-Authorized,Autorizado,module,Magento_Braintree
-"Gateway rejected","Puerta de enlace rechazada",module,Magento_Braintree
-Failed,"Ha fallado",module,Magento_Braintree
-"Processor declined","Declinado por el procesador",module,Magento_Braintree
-Settled,Establecido,module,Magento_Braintree
-Settling,Estableciendo,module,Magento_Braintree
-"Submitted for settlement","Enviado por establecimiento",module,Magento_Braintree
-Voided,Anuladas,module,Magento_Braintree
-Unrecognized,"No reconocido",module,Magento_Braintree
-"Settlement declined","Establecimiento declinado",module,Magento_Braintree
-"Settlement pending","Establecimiento pendiente",module,Magento_Braintree
-"Settlement confirmed","Establecimiento confirmado",module,Magento_Braintree
-Sale,Venta,module,Magento_Braintree
-Credit,Crédito,module,Magento_Braintree
 "Credit Card Type","Tipo de la tarjeta de crédito",module,Magento_Braintree
 "Credit Card Number","Número de la tarjeta de crédito",module,Magento_Braintree
 "Please, enter valid Credit Card Number","Por favor, indique un número de tarjeta de crédito válido",module,Magento_Braintree
@@ -1606,7 +1584,6 @@ Summary,Resumen,module,Magento_ConfigurableProduct
 "You need to choose options for your item.","Tiene que elegir opciones para su elemento.",module,Magento_ConfigurableProduct
 "Some product variations fields are not valid.","Algunos campos de las variaciones del producto no son válidos.",module,Magento_ConfigurableProduct
 "Configuration must have specified attributes","La configuración debe tener los atributos especificados",module,Magento_ConfigurableProduct
-"Configurable product ""%1"" does not have sub-products","Artículo configurable ""%1"" no tiene subproductos",module,Magento_ConfigurableProduct
 "Type %1 is not an instance of %2","Tipo %1 no es una instancia de %2",module,Magento_ConfigurableProduct
 "Choose Affected Attribute Set","Elija conjunto de atributo afectado",module,Magento_ConfigurableProduct
 "Add configurable attributes to the current Attribute Set","Añadir atributos configurables a la configuración de atributo actual",module,Magento_ConfigurableProduct
@@ -4393,6 +4370,7 @@ Canceled,Cancelado,module,Magento_Sales
 "Unknown State","Estado desconocido",module,Magento_Sales
 "We found an invalid quantity to refund item ""%1"".","Encontramos una cantidad válida para devolver el elemento ""%1"".",module,Magento_Sales
 "Maximum shipping amount allowed to refund is: %1","Importe máximo permitido del envío para reembolsar es: %s",module,Magento_Sales
+"The most money available to refund is %1.","La mayor cantidad de dinero disponible para devolución es %1.",module,Magento_Sales
 "Could not delete credit memo","No se puede eliminar la nota de crédito",module,Magento_Sales
 "Could not save credit memo","No se puede guardar la nota de crédito",module,Magento_Sales
 "This order already has associated customer account","Esta orden ya tiene asociados cuenta cliente",module,Magento_Sales
@@ -4428,13 +4406,9 @@ Mixed,Mixto,module,Magento_Sales
 "The payment method you requested is not available.","La forma de pago solicitada no está disponible.",module,Magento_Sales
 "The payment disallows storing objects.","El pago no permite almacenar objetos.",module,Magento_Sales
 "The transaction ""%1"" cannot be captured yet.","La transacción ""%s"" todavía no puede ser capturada.",module,Magento_Sales
-"We will authorize %1 after the payment is approved at the payment gateway.","Le autorizamos a %1 después de que el pago es aprobado en la pasarela de pago.",module,Magento_Sales
-"Order is suspended as its authorizing amount %1 is suspected to be fraudulent.","Se ha suspendido el pedido, ya que se sospecha que la cantidad autorizada %s pueda ser fraudulenta.",module,Magento_Sales
-"Authorized amount of %1","Importe autorizado de %1",module,Magento_Sales
-"An amount of %1 will be captured after being approved at the payment gateway.","Una cantidad de %1 será capturada después de ser aprobado en la pasarela de pago.",module,Magento_Sales
-"Captured amount of %1 online","Cantidad capturada de %1 en línea",module,Magento_Sales
 "The order amount of %1 is pending approval on the payment gateway.","La cantidad de pedidos de %1 está pendiente de aprobación en la pasarela de pago.",module,Magento_Sales
 "Ordered amount of %1","Cantidad ordenada de %1",module,Magento_Sales
+"An amount of %1 will be captured after being approved at the payment gateway.","Una cantidad de %1 será capturada después de ser aprobado en la pasarela de pago.",module,Magento_Sales
 "Registered notification about captured amount of %1.","Recibido una noticia acerca de un importe capturado de %s.",module,Magento_Sales
 "Order is suspended as its capture amount %1 is suspected to be fraudulent.","Se ha suspendido el pedido porque se sospecha que su cantidad tomada %s puede ser fraudulenta.",module,Magento_Sales
 "The parent transaction ID must have a transaction ID.","ID de transacción principal debe tener una ID de transacción.",module,Magento_Sales
@@ -4473,7 +4447,6 @@ Tax,Impuesto,module,Magento_Sales
 title,título,module,Magento_Sales
 "The PDF total model %1 must be or extend \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.","El PDF total modelo %1 debe o extender \Magento\Sales\Model\Order\Pdf\Total\DefaultTotal.",module,Magento_Sales
 "We cannot register an existing shipment","No podemos registrar un envío existente",module,Magento_Sales
-"We found an invalid quantity to ship for item ""%1"".","Encontramos una cantidad válida para enviar para el artículo ""%1"".",module,Magento_Sales
 "Please enter a tracking number.","Por favor, introduzca un número de seguimiento.",module,Magento_Sales
 "Could not delete shipment","No se puede eliminar el envío",module,Magento_Sales
 "Could not save shipment","No se puede guardar el envío",module,Magento_Sales
@@ -4508,7 +4481,6 @@ State/Province,Estado/Provincia,module,Magento_Sales
 "You can not cancel Credit Memo","No puede cancelar factura rectificada",module,Magento_Sales
 "Could not cancel creditmemo","No se puede cancelar la nota de crédito",module,Magento_Sales
 "We cannot register an existing credit memo.","No se puede registrar una factura rectificada existente.",module,Magento_Sales
-"The most money available to refund is %1.","La mayor cantidad de dinero disponible para devolución es %1.",module,Magento_Sales
 "We found an invalid quantity to invoice item ""%1"".","Encontramos una cantidad válida para facturar el artículo ""%1"".",module,Magento_Sales
 "The Order State ""%1"" must not be set manually.","El estado del pedido ""%s"" no se debe establecer manualmente.",module,Magento_Sales
 "VAT Request Identifier","Identificador de petición de IVA",module,Magento_Sales
@@ -4523,6 +4495,8 @@ Closed,Cerrado,module,Magento_Sales
 New,Nuevo,module,Magento_Sales
 "test message","mensaje de prueba",module,Magento_Sales
 "Email has not been sent","Correo electrónico no ha sido enviado",module,Magento_Sales
+"We will authorize %1 after the payment is approved at the payment gateway.","Le autorizamos a %1 después de que el pago es aprobado en la pasarela de pago.",module,Magento_Sales
+"Authorized amount of %1","Importe autorizado de %1",module,Magento_Sales
 View,Ver,module,Magento_Sales
 "Group was removed","Grupo fue eliminado",module,Magento_Sales
 "Changing address information will not recalculate shipping, tax or other order amount.","El cambio de la información de la dirección no efectua calcular de nuevo los gastos del envío, de impuestos ni el total del pedido.",module,Magento_Sales
@@ -4939,22 +4913,16 @@ Carrier:,Transportista:,module,Magento_Shipping
 "contact us",contáctenos,module,Magento_Shipping
 Info:,Información:,module,Magento_Shipping
 Track:,Seguimiento:,module,Magento_Shipping
-Status:,Estado:,module,Magento_Shipping
 "Delivered on:","Entregados en:",module,Magento_Shipping
-"Signed by:","Firmado por:",module,Magento_Shipping
-"Delivered to:","Entregado a:",module,Magento_Shipping
-"Shipped or billed on:","Enviado o facturado el:",module,Magento_Shipping
-"Service Type:","Tipo de servicio:",module,Magento_Shipping
-Weight:,Peso:,module,Magento_Shipping
 N/A,"No disponible",module,Magento_Shipping
+"There is no tracking available for this shipment.","No se dispone de seguimiento para este envío.",module,Magento_Shipping
+"There is no tracking available.","No se dispone de seguimiento.",module,Magento_Shipping
+"Close Window","Cerrar ventana",module,Magento_Shipping
 "Track history","Historia de la pista",module,Magento_Shipping
 Location,Ubicación,module,Magento_Shipping
 Date,Fecha,module,Magento_Shipping
 "Local Time","Hora local",module,Magento_Shipping
 Description,Descripción,module,Magento_Shipping
-"There is no tracking available for this shipment.","No se dispone de seguimiento para este envío.",module,Magento_Shipping
-"There is no tracking available.","No se dispone de seguimiento.",module,Magento_Shipping
-"Close Window","Cerrar ventana",module,Magento_Shipping
 "Save & Generate","Guardar y generar",module,Magento_Sitemap
 "Edit Sitemap","Editar mapa del sitio web",module,Magento_Sitemap
 "New Sitemap","Nuevo mapa del sitio web",module,Magento_Sitemap
@@ -4999,7 +4967,6 @@ All,Todos,module,Magento_Sitemap
 "Requested store is inactive","La tienda solicitada esta inactiva",module,Magento_Store
 "Requested store is not found","Tienda solicitada no se encuentra",module,Magento_Store
 "Environment emulation nesting is not allowed.","No se permite el anidamiento de emulación del entorno.",module,Magento_Store
-"Only default scope allowed","Sólo alcance predeterminado permitido",module,Magento_Store
 "Invalid scope object","Objeto de alcance no inválido",module,Magento_Store
 "Store with the same code","Tienda con el mismo código",module,Magento_Store
 "Website with the same code","Ya existe un sitio web con el mismo código",module,Magento_Store
@@ -5011,8 +4978,8 @@ All,Todos,module,Magento_Sitemap
 "All Store Views","Todas las vistas de tienda",module,Magento_Store
 "-- Please Select --","-- Por favor Seleccione --",module,Magento_Store
 Admin,Administrador,module,Magento_Store
-"More than one default website is defined","Más de un sitio web predeterminado está definido",module,Magento_Store
 "Default website is not defined","El sitio web predeterminado no está definido",module,Magento_Store
+"More than one default website is defined","Más de un sitio web predeterminado está definido",module,Magento_Store
 "no such entity exception","no hay tal excepción de entidad",module,Magento_Store
 "Your Language:","Su idioma:",module,Magento_Store
 "Your Language","Su idioma",module,Magento_Store
@@ -5660,12 +5627,9 @@ Yes,Si,module,Magento_Variable
 "No token found.","Ningún token encontrado.",module,Magento_Vault
 "Wrong request.","Solicitud incorrecta.",module,Magento_Vault
 "Deletion failure. Please try again.","Falla en el borrado. Por favor, inténtelo de nuevo.",module,Magento_Vault
-"Credit Card was successfully removed","La tarjeta de crédito fue removida con éxito",module,Magento_Vault
-"My Credit Cards","Mis tarjetas de crédito",module,Magento_Vault
 "Card Number","Número de la tarjeta",module,Magento_Vault
 "Expiration Date","Fecha de vencimiento",module,Magento_Vault
 Type,Tipo,module,Magento_Vault
-"You have no credit cards.","No tienes tarjetas de crédito.",module,Magento_Vault
 ending,finalizando,module,Magento_Vault
 Actions,Acciones,module,Magento_Vault
 Delete,Eliminar,module,Magento_Vault
@@ -5887,7 +5851,6 @@ items,artículos,module,Magento_Checkout
 "Options Details","Detalles de las opciones",module,Magento_Checkout
 Remove,Quitar,module,Magento_Checkout
 "Cart Subtotal","Subtotal del carrito de compras",module,Magento_Checkout
-"No Payment Methods","No hay métodos de pago",module,Magento_Checkout
 "Payment Information","Información de pago",module,Magento_Checkout
 "No Payment method available.","Ningún método de pago está disponible.",module,Magento_Checkout
 "You can track your order status by creating an account.","Puede hacer un seguimiento de su orden mediante la creación de una cuenta.",module,Magento_Checkout
@@ -6428,7 +6391,6 @@ Download,Descargar,module,Magento_Backup
 Action,Acción,module,Magento_Backup
 "Enable this Solution","Habilitar esta solución",module,Magento_Braintree
 "Enable PayPal through Braintree","Activar PayPal a través de Braintree",module,Magento_Braintree
-"Vault enabled","Depósito habilitado",module,Magento_Braintree
 "Basic Braintree Settings","Configuración básica de Braintree",module,Magento_Braintree
 Title,Título,module,Magento_Braintree
 Environment,Entorno,module,Magento_Braintree
@@ -6463,12 +6425,12 @@ Debug,Depurar,module,Magento_Braintree
 Select...,Seleccionar...,module,Magento_Braintree
 Status,Estado,module,Magento_Braintree
 "Transaction Type","Tipo de transacción",module,Magento_Braintree
+"Payment Type","Tipo de pago",module,Magento_Braintree
 "PayPal Payment ID","ID de pago de PayPal",module,Magento_Braintree
+"Created At","Creado el",module,Magento_Braintree
 "Transaction ID","Número identificativo de la transacción",module,Magento_Braintree
 "Order ID","Pedido ID",module,Magento_Braintree
-"Payment Type","Tipo de pago",module,Magento_Braintree
 Type,Tipo,module,Magento_Braintree
-"Created At","Creado el",module,Magento_Braintree
 Amount,Monto,module,Magento_Braintree
 "Settlement Code","Código de establecimiento",module,Magento_Braintree
 "Settlement Response Text","Texto de respuesta de establecimiento",module,Magento_Braintree
@@ -7219,19 +7181,18 @@ Manage,Gestionar,module,Magento_Paypal
 "Merchant Location","Ubicación del minorista",module,Magento_Paypal
 "Merchant Country","País de envío",module,Magento_Paypal
 "If not specified, Default Country from General Config will be used","Si no se especifica, use el país por defecto de la configuración general",module,Magento_Paypal
+"PayPal Express Checkout","Pago exprés de PayPal",module,Magento_Paypal
+"Add another payment method to your existing solution or as a stand-alone option.","Añada otro método de pago a sus actuales soluciones o como una opción independiente.",module,Magento_Paypal
 "Choose a secure bundled payment solution for your business.","Elija una solución de pago por lotes segura para su empresa.",module,Magento_Paypal
 "Payments Pro and Express Checkout","Los pagos Pro y Express Checkout",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro","Ajustes básicos: PayPal Payments Pro",module,Magento_Paypal
-"PayPal Payment Gateways","Pasarela de pago PayPal",module,Magento_Paypal
-"Process payments using your own internet merchant account.","Procese pagos mediante su propia cuenta de minorista en internet.",module,Magento_Paypal
-"PayPal Express Checkout","Pago exprés de PayPal",module,Magento_Paypal
-"Add another payment method to your existing solution or as a stand-alone option.","Añada otro método de pago a sus actuales soluciones o como una opción independiente.",module,Magento_Paypal
+"PayPal All-in-One Payment Solutions&nbsp;&nbsp;<i>Accept and process credit cards and PayPal payments.</i>","Soluciones de pago de PayPal todo-en-uno <i>Aceptar y proceso las tarjetas de crédito y pagos PayPal.</i>",module,Magento_Paypal
 "Accept payments with a completely customizable checkout page.","Acepta pagos con una página de procesos de compra en línea completamente personalizable.",module,Magento_Paypal
-"PayPal Payment Solutions","Soluciones de pago de PayPal",module,Magento_Paypal
+"Process payments using your own internet merchant account.","Procese pagos mediante su propia cuenta de minorista en internet.",module,Magento_Paypal
 "Express Checkout","Paso por Caja Express",module,Magento_Paypal
 "Add PayPal as an additional payment method to your checkout page.","Añada PayPal como método de pago adicional a su página de procesos de compra en línea.",module,Magento_Paypal
 "Required PayPal Settings","Configuración obligatoria de PayPal",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account","Correo electrónico asociado con la cuenta de minorista de PayPal",module,Magento_Paypal
+"Email Associated with PayPal Merchant Account (Optional)","Correo electrónico asociado con la cuenta de minorista de PayPal (opcional)",module,Magento_Paypal
 "Don't have a PayPal account? Simply enter your email address.","No dispone de una cuenta PayPal? Introduzca su dirección de email.",module,Magento_Paypal
 "API Authentication Methods","Métodos de autenticación API",module,Magento_Paypal
 "API Username","Nombre de usuario API",module,Magento_Paypal
@@ -7313,8 +7274,6 @@ Schedule,Programa,module,Magento_Paypal
 "Header Border Color","Color del borde de la cabecera",module,Magento_Paypal
 "2-pixel perimeter around the header space.","Perímetro de 2 píxeles alrededor del espacio de cabera.",module,Magento_Paypal
 "Page Background Color","Color del fondo de página",module,Magento_Paypal
-"Payments Advanced (Includes Express Checkout)","Payments avanzado (incluido pago exprés)",module,Magento_Paypal
-"Accept payments with a PCI-compliant checkout that keeps customers on your site.","Acepte pagos según la normativa PCI en procesos de compra en línea con el objetivo de que los clientes permanezcan en su sitio durante dicho proceso.",module,Magento_Paypal
 "Payments Advanced and Express Checkout","Pago avanzado y Express Checkout",module,Magento_Paypal
 Partner,Socio,module,Magento_Paypal
 Vendor,Vendedor,module,Magento_Paypal
@@ -7329,22 +7288,17 @@ User,Usuario,module,Magento_Paypal
 "Require CVV Entry","Requiere el código de seguridad de la tarjeta",module,Magento_Paypal
 "Send Email Confirmation","Enviar confirmación por correo electrónico",module,Magento_Paypal
 "URL method for Cancel URL and Return URL","Método de URL para URL de cancelación y URL de retorno",module,Magento_Paypal
-"Payflow Link (Includes Express Checkout)","Enlace de Payflow (incluido Pago exprés)",module,Magento_Paypal
-"Connect your merchant account with a PCI-compliant gateway that lets customers pay without leaving your site.","Conecta su cuenta de minorista con una pasarela que cumple con la normativa PCI y que permite a los clientes pagar sin abandonar su sitio.",module,Magento_Paypal
 "Payflow Link and Express Checkout","Payflow Link y Express Checkout",module,Magento_Paypal
-"Email Associated with PayPal Merchant Account (Optional)","Correo electrónico asociado con la cuenta de minorista de PayPal (opcional)",module,Magento_Paypal
 "If you do not have multiple users set up on your account, please re-enter your Vendor/Merchant Login here.","Si no ha configurado diversos usuarios en su cuenta, vuelva a introducir el nombre de usuario del vendedor/minorista aquí.",module,Magento_Paypal
 "Enable Payflow Link","Habilitar el enlace de Payflow",module,Magento_Paypal
 "Enable Express Checkout","Habilitar el pago exprés",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Link","Ajustes básicos: Enlace de PayPal Payflow",module,Magento_Paypal
 "Website Payments Pro Hosted Solution","Solución Hospedada de Pagos Web Pro",module,Magento_Paypal
-"Accept payments with a PCI compliant checkout that keeps customers on your site.","Acepte pagos según la normativa PCI en procesos de compra en línea con el objetivo de que sus cliente permanezcan en el sitio durante dicho proceso.",module,Magento_Paypal
 "Payments Pro Hosted Solution","Solución alojada de Payments Pro",module,Magento_Paypal
 "Basic Settings - PayPal Payments Pro Hosted Solution","Ajustes básicos: Solución alojada de Payments Pro de PayPal",module,Magento_Paypal
 "Display Express Checkout in the Payment Information step","Mostrar pago exprés en la pantalla de información del pago",module,Magento_Paypal
 "Website Payments Pro Hosted Solution and Express Checkout","Solución alojada de Website Payments Pro y Pago exprés",module,Magento_Paypal
 "Basic Settings - PayPal Website Payments Pro Hosted Solution","Ajustes básicos: Solución alojada de Website Payments Pro de PayPal",module,Magento_Paypal
-"Connect your merchant account with a fully customizable gateway that lets customers pay without leaving your site.","Conecte su cuenta de minorista con una pasarela completamente personalizable que permite a los clientes pagar sin tener que abandonar su sitio.",module,Magento_Paypal
 "Basic Settings - PayPal Payflow Pro","Ajustes básicos: Payflow Pro de PayPal",module,Magento_Paypal
 "Credit Card Settings","Configuración de la tarjeta de crédito",module,Magento_Paypal
 "Allowed Credit Card Types","Tipos de tarjetas de crédito permitidos",module,Magento_Paypal
@@ -7354,7 +7308,6 @@ User,Usuario,module,Magento_Paypal
 "AVS Zip Does Not Match","AVS Zip no coincide",module,Magento_Paypal
 "International AVS Indicator Does Not Match","Indicador internacional AVS no coincide con",module,Magento_Paypal
 "Card Security Code Does Not Match","Código de seguridad de la tarjeta no coincide con",module,Magento_Paypal
-"Payflow Pro (Includes Express Checkout)","Payflow Pro (incluido Pago exprés)",module,Magento_Paypal
 "Payflow Pro and Express Checkout","Payflow Pro y Pago exprés",module,Magento_Paypal
 "Persistent Shopping Cart","Carrito de compras persistente",module,Magento_Persistent
 "General Options","Opciones generales",module,Magento_Persistent
