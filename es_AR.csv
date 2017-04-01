@@ -3924,6 +3924,7 @@ Category,Categoría,module,Magento_Rule
 "Open Chooser","Abrir el buscador",module,Magento_Rule
 "Unknown condition operator","Operador de condición desconocido",module,Magento_Rule
 "There is no information about associated entity type ""%1"".","No hay información acerca del tipo de entidad asociada ""%1"".",module,Magento_Rule
+"The ""%1"" product is not part of the current creditmemo.","El producto ""%1"" no es parte de la nota de crédito actual.",module,Magento_SalesInventory
 "Cart Price Rules","Regla de precio para el carrito de compras",module,Magento_SalesRule
 "Add New Rule","Agregar nueva Regla",module,Magento_SalesRule
 Delete,Eliminar,module,Magento_SalesRule
