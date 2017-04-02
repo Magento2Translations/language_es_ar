@@ -1551,7 +1551,7 @@ label,etiqueta,module,Magento_Eav
 "Wrong entity ID","ID de entidad es erróneo",module,Magento_Eav
 "Wrong attribute set ID","ID de conjunto de atributos es erróneo",module,Magento_Eav
 "Wrong attribute group ID","ID de grupo de atributos es erróneo",module,Magento_Eav
-"Add New Template","Nueva plantilla",module,Magento_Email
+"Add New Template","Agregar nueva plantilla",module,Magento_Email
 "Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
 Reset,Restablecer,module,Magento_Email
