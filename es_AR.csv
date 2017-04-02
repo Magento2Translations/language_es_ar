@@ -2368,7 +2368,7 @@ label,etiqueta,module,Magento_Eav
 hello,hola,module,Magento_Eav
 "Some internal exception message.","Algunos mensaje de la excepción interna.",module,Magento_Eav
 "The value of attribute not valid","El valor del atributo no es válido",module,Magento_Eav
-"Add New Template","Nueva plantilla",module,Magento_Email
+"Add New Template","Agregar nueva plantilla",module,Magento_Email
 "Transactional Emails","Correos electrónicos transaccionales",module,Magento_Email
 Back,Volver,module,Magento_Email
 Reset,Restablecer,module,Magento_Email
