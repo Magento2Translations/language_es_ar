@@ -5824,6 +5824,7 @@ Login,Entrar,module,Magento_Checkout
 item,artículo,module,Magento_Checkout
 items,artículos,module,Magento_Checkout
 "Go to Checkout","Finalizar pedido",module,Magento_Checkout
+"View and edit cart","Ver y editar carrito de compras",module,Magento_Checkout
 "See Details","Ver información",module,Magento_Checkout
 "Options Details","Detalles de las opciones",module,Magento_Checkout
 Remove,Quitar,module,Magento_Checkout
