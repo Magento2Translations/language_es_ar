@@ -5847,6 +5847,7 @@ edit,editar,module,Magento_Checkout
 Next,Siguiente,module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Lo sentimos, no hay cotizaciones disponibles para esta orden en este momento",module,Magento_Checkout
 "Order Summary","Resumen de la orden",module,Magento_Checkout
+"Item in Cart","Artículo en el carrito",module,Magento_Checkout
 "View Details","Ver Detalles",module,Magento_Checkout
 "Contact Form","Formulario de contacto",module,Magento_Contact
 "Name: %name","Nombre: %name",module,Magento_Contact
