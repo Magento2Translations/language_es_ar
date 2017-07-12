@@ -84,7 +84,7 @@ void,vacío,module,Magento_Authorizenet
 "Card Code Response","Respuesta de código de tarjeta",module,Magento_Authorizenet
 "CAVV Response","Respuesta CAVV",module,Magento_Authorizenet
 "Fraud Filters","Filtros de fraude",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","Clave de formulario inválida. Por favor, actualize la página.",module,Magento_Backend
+"Invalid Form Key. Please refresh the page.","Clave de formulario inválida. Por favor, actualice la página.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Has introducido una clave secreta inválida. Por favor actualice la página.",module,Magento_Backend
 "Cache Storage Management","Administración de almacenamiento de memoria caché",module,Magento_Backend
 "Flush Magento Cache","Vaciar la caché de Magento",module,Magento_Backend
