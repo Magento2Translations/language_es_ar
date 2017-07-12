@@ -85,7 +85,7 @@ void,vacío,module,Magento_Authorizenet
 "Card Code Response","Respuesta de código de tarjeta",module,Magento_Authorizenet
 "CAVV Response","Respuesta CAVV",module,Magento_Authorizenet
 "Fraud Filters","Filtros de fraude",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","Clave de formulario inválida. Por favor, actualize la página.",module,Magento_Backend
+"Invalid Form Key. Please refresh the page.","Clave de formulario inválida. Por favor, actualice la página.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","Has introducido una clave secreta inválida. Por favor actualice la página.",module,Magento_Backend
 "Cache Storage Management","Administración de almacenamiento de memoria caché",module,Magento_Backend
 "Flush Magento Cache","Vaciar la caché de Magento",module,Magento_Backend
@@ -312,6 +312,7 @@ password,contraseña,module,Magento_Backend
 "All Websites","Todos los sitios web",module,Magento_Backend
 "Reload Data","Recargar datos",module,Magento_Backend
 "Browse Files...","Buscar archivos...",module,Magento_Backend
+"Copyright &copy; %1 Magento Commerce Inc. All rights reserved.","Copyright© %1 Magento Commerce Inc. Todos los derechos reservados.",module,Magento_Backend
 "Magento Admin Panel","Panel de administración de Magento",module,Magento_Backend
 "Account Setting","Configuración de la cuenta",module,Magento_Backend
 "Customer View","Vista de cliente",module,Magento_Backend
@@ -445,6 +446,8 @@ Authorize,Autorizar,module,Magento_Braintree
 "Please, enter valid Card Verification Number","Por favor, indique el número de verificación de tarjeta válido",module,Magento_Braintree
 ending,finalizando,module,Magento_Braintree
 expires,vence,module,Magento_Braintree
+"PayPal Account","Cuenta PayPal",module,Magento_Braintree
+"PayPal Logo","Logo PayPal",module,Magento_Braintree
 Actions,Acciones,module,Magento_Braintree
 Delete,Eliminar,module,Magento_Braintree
 "Percent Discount","Porcentaje de descuento",module,Magento_Bundle
@@ -487,11 +490,13 @@ Separately,"Por separado",module,Magento_Bundle
 "We can't add this item to your shopping cart right now.","No podemos añadir este artículo a su cesta de la compra en este momento.",module,Magento_Bundle
 N/A,"No disponible",module,Magento_Bundle
 Percent,Porcentaje,module,Magento_Bundle
+"We can't save custom-defined options for bundles with dynamic pricing.","No podemos guardar las opciones personalizadas para conjuntos con precio dinámico.",module,Magento_Bundle
 Cancel,Cancelar,module,Magento_Bundle
 "Add Selected Products","Añadir los artículos seleccionados",module,Magento_Bundle
 "Add Option","Agregar opción",module,Magento_Bundle
 "New Option","Nueva opción",module,Magento_Bundle
 "Option Title","Título de opciones",module,Magento_Bundle
+"Default Title","Título (predeterminado)",module,Magento_Bundle
 "Store View Title","Título de vista de tienda",module,Magento_Bundle
 "Input Type","Introducir tipo",module,Magento_Bundle
 Drop-down,"Menú desplegable",module,Magento_Bundle
@@ -1531,6 +1536,8 @@ Yes,Si,module,Magento_Config
 Specified,Especificado,module,Magento_Config
 "Config form fieldset clone model required to be able to clone fields","Config forma de campos modelo clon necesario para ser capaz de clonar campos",module,Magento_Config
 "Invalid XML in file %1:\n%2","XML no válido en archivo %1:\n%2",module,Magento_Config
+"'There is no defined type ' .","'No hay un tipo definido'.",module,Magento_Config
+"'Object is not instance of ' .","'El objeto no es instancia de'.",module,Magento_Config
 "some prefix","algunos prefijo",module,Magento_Config
 "element label","etiqueta de elemento",module,Magento_Config
 "element hint","sugerencia de elemento",module,Magento_Config
@@ -6367,6 +6374,7 @@ Size(bytes),Tamaño(bytes),module,Magento_Backup
 Type,Tipo,module,Magento_Backup
 Download,Descargar,module,Magento_Backup
 Action,Acción,module,Magento_Backup
+"Accept credit/debit cards and PayPal in your Magento store.<br/>No setup or monthly fees and your customers never leave your store to complete the purchase.","Acepta tarjetas de crédito/débito y PayPal en su tienda Magento. <br/> Sin cargos mensuales o de instalación y los clientes nunca abandonan su tienda para completar la compra.",module,Magento_Braintree
 "Enable this Solution","Habilitar esta solución",module,Magento_Braintree
 "Enable PayPal through Braintree","Activar PayPal a través de Braintree",module,Magento_Braintree
 "Basic Braintree Settings","Configuración básica de Braintree",module,Magento_Braintree
