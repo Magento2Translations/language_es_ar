@@ -5263,6 +5263,9 @@ Machinable,Manufacturable,module,Magento_Usps
 Debug,Depurar,module,Magento_Usps
 "Show Method if Not Applicable","Mostrar el método de envío, incluso si no se aplica",module,Magento_Usps
 "Sort Order",Ordenación,module,Magento_Usps
+"SOAP Settings","Ajustes SOAP",module,Magento_Webapi
+"Default Response Charset","Conjunto de caracteres de respuesta (predeterminado)",module,Magento_Webapi
+"If empty, UTF-8 will be used.","Si está vacío, se utilizará UTF-8.",module,Magento_Webapi
 "Web Services Configuration","Configuración de servicios web",module,Magento_Webapi
 "REST and SOAP configurations, generated WSDL file.","Ajustes REST y SOAP, archivo WSDL generado.",module,Magento_Webapi
 "Fixed Product Taxes","Impuestos fijos del artículo",module,Magento_Weee
