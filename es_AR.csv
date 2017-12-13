@@ -6194,6 +6194,8 @@ Footer,"Pie de página",theme,frontend/Magento/luma
 "Sorry, but something went wrong. Please contact the seller.","Lo sentimos, pero algo salió mal. Por favor, póngase en contacto con el vendedor.",module,Magento_Authorizenet
 "We could not detect a size.","No hemos podido detectar un tamaño.",module,Magento_Backend
 "We don't recognize or support this file extension type.","No reconocemos o soportamos este tipo de extensión de archivo.",module,Magento_Backend
+"Warning message","Mensaje de advertencia",module,Magento_Backend
+"This operation can take a long time","Esta operación puede tardar mucho tiempo",module,Magento_Backend
 "This payment is not available","Este pago no está disponible",module,Magento_Braintree
 "Please try again with another form of payment.","Por favor, inténtelo de nuevo con otra forma de pago.",module,Magento_Braintree
 "Sorry, but something went wrong.","Lo sentimos, pero algo salió mal.",module,Magento_Braintree
@@ -6647,6 +6649,7 @@ Select...,Seleccionar...,module,Magento_Bundle
 Status,Estado,module,Magento_Bundle
 Thumbnail,Miniatura,module,Magento_Bundle
 Type,Tipo,module,Magento_Bundle
+"Special Price","Precio especial",module,Magento_Bundle
 "Enable CAPTCHA in Admin","Habilitar el CAPTCHA en Administrador",module,Magento_Captcha
 Font,Fuente,module,Magento_Captcha
 Forms,Formularios,module,Magento_Captcha
