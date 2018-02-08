@@ -415,7 +415,7 @@ Together,Juntos,module,Magento_Bundle
 "Store View Title","Título de vista de tienda",module,Magento_Bundle
 "Input Type","Introducir tipo",module,Magento_Bundle
 Required,Requerido,module,Magento_Bundle
-Position,Posición,module,Magento_Bundle
+Position,Destacados,module,Magento_Bundle
 "There are no products in this option.","No existen productos en esta opción.",module,Magento_Bundle
 "New Option","Nueva opción",module,Magento_Bundle
 Default,"Por defecto",module,Magento_Bundle
@@ -886,8 +886,8 @@ Role,Rol,module,Magento_Catalog
 "Unselect All","Deseleccionar todo",module,Magento_Catalog
 "Select Visible","Seleccionar los visibles",module,Magento_Catalog
 "Unselect Visible","Deseleccionar los visibles",module,Magento_Catalog
-"Shop By","Comprar por",module,Magento_Catalog
-"Shopping Options","Opciones de compra",module,Magento_Catalog
+"Shop By","Filtrar por",module,Magento_Catalog
+"Shopping Options","Filtrar por",module,Magento_Catalog
 "Compare Products","Comparar artículos",module,Magento_Catalog
 "Print This Page","Imprimir esta página",module,Magento_Catalog
 "Remove Product","Eliminar artículo",module,Magento_Catalog
@@ -1312,7 +1312,7 @@ or,o,module,Magento_Customer
 "* Required Fields","* Campos Requeridos",module,Magento_Customer
 Company,Empresa,module,Magento_Customer
 Address,Dirección,module,Magento_Customer
-"Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Customer
+"Street Address",Dirección,module,Magento_Customer
 "Street Address %1","Dirección calle %1",module,Magento_Customer
 "VAT Number","Número de IVA",module,Magento_Customer
 City,Ciudad,module,Magento_Customer
@@ -1811,9 +1811,9 @@ Position,Posición,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","Posición de atributo en el bloque de navegación en capas",module,Magento_LayeredNavigation
 Previous,Anterior,module,Magento_LayeredNavigation
 "Remove This Item","Eliminar este artículo",module,Magento_LayeredNavigation
-"Shop By","Comprar por",module,Magento_LayeredNavigation
+"Shop By","Filtrar por",module,Magento_LayeredNavigation
 "Clear All","Borrar todo",module,Magento_LayeredNavigation
-"Shopping Options","Opciones de compra",module,Magento_LayeredNavigation
+"Shopping Options","Filtrar por",module,Magento_LayeredNavigation
 "Magento Marketplace","Mercado de Magento",module,Magento_Marketplace
 "Platinum Partners","Socios platino",module,Magento_Marketplace
 "Featured Platinum Partners","Socios platino recomendados",module,Magento_Marketplace
@@ -1899,7 +1899,7 @@ Items,Artículos,module,Magento_Multishipping
 Back,Volver,module,Magento_Newsletter
 Reset,Restablecer,module,Magento_Newsletter
 "Preview Template","Vista previa de la plantilla",module,Magento_Newsletter
-"Save Newsletter","Guardar el boletín informativo",module,Magento_Newsletter
+"Save Newsletter","Guardar el newsletter",module,Magento_Newsletter
 "Save and Resume","Guardar y reanudar",module,Magento_Newsletter
 "View Newsletter","Ver boletín informativo",module,Magento_Newsletter
 "Edit Newsletter","Editar el boletín informativo",module,Magento_Newsletter
@@ -1966,7 +1966,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "Please enter a valid email address.","Por favor, ingrese una dirección de correo electrónico válida.",module,Magento_Newsletter
 "The confirmation request has been sent.","La petición de confirmación ha sido enviada.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
-"There was a problem with the subscription: %1","Hubo un problema con la suscripción: %s",module,Magento_Newsletter
+"There was a problem with the subscription: %1","Hubo un problema con la suscripción: %1",module,Magento_Newsletter
 "Something went wrong with the subscription.","Algo salió mal con la suscripción de las Naciones Unidas.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 Cancelled,Cancelado,module,Magento_Newsletter
@@ -3144,7 +3144,7 @@ Email,"Correo electrónico",module,Magento_Sales
 "First Name",Nombre,module,Magento_Sales
 "Last Name",Apellido,module,Magento_Sales
 State/Province,Estado/Provincia,module,Magento_Sales
-"Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Sales
+"Street Address",Dirección,module,Magento_Sales
 "Zip/Postal Code","Código Postal",module,Magento_Sales
 "We cannot create an empty shipment.","No podemos crear un envío de vacío.",module,Magento_Sales
 "We cannot register an existing credit memo.","No se puede registrar una factura rectificada existente.",module,Magento_Sales
@@ -3311,7 +3311,7 @@ Name,Nombre,module,Magento_SendFriend
 "Send Email","Envíar correo electrónico",module,Magento_SendFriend
 Back,Volver,module,Magento_SendFriend
 "New Shipment for Order #%1","Nuevo envío para el pedido nº %1",module,Magento_Shipping
-"Submit Shipment","Presentar envió.",module,Magento_Shipping
+"Submit Shipment","Confirmar envío",module,Magento_Shipping
 "Products should be added to package(s)","Los artículos deberían ser añadidos a paquete(s)",module,Magento_Shipping
 "The value that you entered is not valid.","El valor que ha introducido no es válido.",module,Magento_Shipping
 "Add Tracking Number","Añadir código de seguimiento",module,Magento_Shipping
@@ -3849,7 +3849,7 @@ Forced,Forzado,module,Magento_User
 "Your password confirmation must match your password.","La confirmación de su contraseña debe coincidir con la contraseña.",module,Magento_User
 "Your password has expired; please contact your administrator.","Su contraseña ha caducado; por favor, póngase en contacto con su administrador.",module,Magento_User
 "Retrieve Password","Recuperar contraseña",module,Magento_User
-"Forgot your password?","¿Olvidó su contraseña?",module,Magento_User
+"Forgot your password?","¿Olvidaste tu contraseña?",module,Magento_User
 "Reset a Password","Reinicializar contraseña",module,Magento_User
 "Confirm New Password","Confirmar contraseña nueva",module,Magento_User
 "Reset Password","Restablecer contraseña",module,Magento_User
@@ -4183,8 +4183,8 @@ Country,País,module,Magento_Backend
 Region/State,Región/Provincia,module,Magento_Backend
 "ZIP/Postal Code","Código Postal",module,Magento_Backend
 City,Ciudad,module,Magento_Backend
-"Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Backend
-"Street Address Line 2","Dirección postal, segunda línea",module,Magento_Backend
+"Street Address",Dirección,module,Magento_Backend
+"Street Address Line 2","Dirección, segunda línea",module,Magento_Backend
 "VAT Number","Número de IVA",module,Magento_Backend
 "Single-Store Mode","Modo Tienda Única",module,Magento_Backend
 "Enable Single-Store Mode","Activar el Modo Tienda Única",module,Magento_Backend
@@ -5088,8 +5088,8 @@ Country,País,module,Magento_Shipping
 Region/State,Región/Provincia,module,Magento_Shipping
 "ZIP/Postal Code","Código Postal",module,Magento_Shipping
 City,Ciudad,module,Magento_Shipping
-"Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Shipping
-"Street Address Line 2","Dirección postal, segunda línea",module,Magento_Shipping
+"Street Address",Dirección,module,Magento_Shipping
+"Street Address Line 2","Dirección, segunda línea",module,Magento_Shipping
 "Shipping Policy Parameters","Parámetros de la política de envío",module,Magento_Shipping
 "Apply custom Shipping Policy","Aplicar política de envío personalizada",module,Magento_Shipping
 "Shipping Methods","Métodos de envío",module,Magento_Shipping
