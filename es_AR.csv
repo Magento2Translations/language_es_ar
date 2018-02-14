@@ -101,7 +101,7 @@ Customer,Cliente,module,Magento_Backend
 Guest,Invitado,module,Magento_Backend
 Items,Artículos,module,Magento_Backend
 "Lifetime Sales","Ventas de por Vida",module,Magento_Backend
-"Average Order","Promedio de pedido",module,Magento_Backend
+"Average Order","Promedio de pedidos",module,Magento_Backend
 Average,Promedio,module,Magento_Backend
 Product,Producto,module,Magento_Backend
 Price,Precio,module,Magento_Backend
@@ -5968,7 +5968,7 @@ Title,Título,module,Magento_Authorizenet
 "API Login ID","ID de inicio de sesión en API",module,Magento_Authorizenet
 "Transaction Key","Clave de transacción",module,Magento_Authorizenet
 "Merchant MD5","Händler MD5",module,Magento_Authorizenet
-"New Order Status","Nuevo estado del pedido",module,Magento_Authorizenet
+"New Order Status","Estado de Nuevo Pedido",module,Magento_Authorizenet
 "Test Mode","Modo de prueba",module,Magento_Authorizenet
 "Gateway URL","URL de la pasarela",module,Magento_Authorizenet
 "Transaction Details URL","URL de los Detalles de la transacción",module,Magento_Authorizenet
@@ -6048,7 +6048,7 @@ Country,País,module,Magento_Backend
 Region/State,Región/Provincia,module,Magento_Backend
 "ZIP/Postal Code","Código Postal",module,Magento_Backend
 City,Ciudad,module,Magento_Backend
-"Street Address",Dirección,module,Magento_Backend
+"Street Address","Dirección postal (Calle, Nº de Casa, Código Postal)",module,Magento_Backend
 "Street Address Line 2","Dirección, segunda línea",module,Magento_Backend
 "VAT Number","Número de IVA",module,Magento_Backend
 "Single-Store Mode","Modo Tienda Única",module,Magento_Backend
