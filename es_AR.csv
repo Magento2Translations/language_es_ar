@@ -1967,7 +1967,7 @@ Subscribers,Suscriptores,module,Magento_Newsletter
 "The confirmation request has been sent.","La petición de confirmación ha sido enviada.",module,Magento_Newsletter
 "Thank you for your subscription.","Gracias por suscribirse.",module,Magento_Newsletter
 "There was a problem with the subscription: %1","Hubo un problema con la suscripción: %1",module,Magento_Newsletter
-"Something went wrong with the subscription.","Algo salió mal con la suscripción de las Naciones Unidas.",module,Magento_Newsletter
+"Something went wrong with the subscription.","Algo salió mal con la suscripción.",module,Magento_Newsletter
 Sent,Enviado,module,Magento_Newsletter
 Cancelled,Cancelado,module,Magento_Newsletter
 "Not Sent","No enviado",module,Magento_Newsletter
