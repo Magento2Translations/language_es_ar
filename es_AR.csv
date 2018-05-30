@@ -3378,7 +3378,7 @@ Dispute,Conflicto,module,Magento_Paypal
 "IPN ""%1"". Case type ""%2"". Case ID ""%3"" %4","IPN ""%s"". Tipo de caso ""%s"". ID de caso ""%s"" %s",module,Magento_Paypal
 "IPN ""%1"". A dispute has been resolved and closed. %2 Transaction amount %3.","IPN ""%s"". Se ha resuelto y cerrado un conflicto. %s Cantidad de la transacción %s.",module,Magento_Paypal
 "You notified customer about invoice #%1.","Le notifica al cliente acerca de factura #%1.",module,Magento_Paypal
-"We cannot cancel this order.","No podemos cancelar este pedido.",module,Magento_Paypal
+"We cannot cancel this order.","No podemos cancelar ésta orden.",module,Magento_Paypal
 "IPN ""%1"". %2 Transaction amount %3. Transaction ID: ""%4""","IPN ""%s"". La cantidad de la transacción es %s. ID de la transacción: ""%s""",module,Magento_Paypal
 "You notified customer about creditmemo #%1.","Le notifica al cliente sobre creditmemo #%1.",module,Magento_Paypal
 "Unable to fetch transaction details.","No se puede obtener detalles de la transacción.",module,Magento_Paypal
@@ -4478,7 +4478,7 @@ Mixed,Mixto,module,Magento_Sales
 "The transaction ""%1"" (%2) is already closed.","La transacción ""%s"" (%s) ya está cerrada.",module,Magento_Sales
 "Set order for existing transactions not allowed","No se le permite configurar un pedido de una transacción existente",module,Magento_Sales
 "At minimum, you need to set a payment ID.","Como mínimo, es necesario establecer una ID de pago.",module,Magento_Sales
-Order,Encargar,module,Magento_Sales
+Order,Pedido,module,Magento_Sales
 Authorization,Autorización,module,Magento_Sales
 "We found an unsupported transaction type ""%1"".","Encontramos un tipo de transacción ""%1"".",module,Magento_Sales
 "Please set a proper payment and order id.","Por favor seleccione una id de pago y orden adecuada.",module,Magento_Sales
@@ -4863,7 +4863,7 @@ Print,Imprimir,module,Magento_Shipping
 "Cannot add new comment.","No se puede agregar un nuevo comentario.",module,Magento_Shipping
 "Please specify a carrier.","Por favor especifique un portador.",module,Magento_Shipping
 "Please enter a tracking number.","Por favor, introduzca un número de seguimiento.",module,Magento_Shipping
-Shipments,Envíos.,module,Magento_Shipping
+Shipments,Envíos,module,Magento_Shipping
 "We can't initialize shipment for adding tracking number.","No podemos iniciar el envío para añadir número de seguimiento.",module,Magento_Shipping
 "Cannot add tracking number.","No se puede agregar el número de seguimiento.",module,Magento_Shipping
 "You created the shipping label.","Ha creado la etiqueta de envío.",module,Magento_Shipping
@@ -5540,7 +5540,7 @@ Role,Rol,module,Magento_User
 "Please correct the password reset token.","Por favor, corrija el testigo de restablecimiento de contraseña.",module,Magento_User
 "Please specify the correct account and try again.","Por favor, especifique la cuenta correcta e inténtelo de nuevo.",module,Magento_User
 "Your password reset link has expired.","Su enlace de restablecimiento de contraseña ha caducado.",module,Magento_User
-"We're unable to send the password reset email.","No podemos enviar el mensaje de restablecimiento de contraseña.",module,Magento_User
+"We're unable to send the password reset email.","No se puede enviar el correo electrónico de reseteo de contraseña.",module,Magento_User
 "We'll email you a link to reset your password.","Te enviaremos por email un link para restablecer tu contraseña.",module,Magento_User
 "Please correct this email address:","Por favor corregir esta dirección de correo electrónico:",module,Magento_User
 "Please enter an email address.","Por favor escriba una dirección de correo electrónico.",module,Magento_User
@@ -5802,7 +5802,7 @@ Apply,Aplicar,module,Magento_Widget
 Page,Página,module,Magento_Widget
 "Wish List","Lista de artículos deseados",module,Magento_Wishlist
 "Wish List Sharing","Compartir favoritos",module,Magento_Wishlist
-"My Wish List","Mi lista de artículos",module,Magento_Wishlist
+"My Wish List","Mi lista de favoritos",module,Magento_Wishlist
 "%1's Wish List","Lista de artículos %1",module,Magento_Wishlist
 "Page not found.","Página no encontrada.",module,Magento_Wishlist
 "We can't specify a product.","No se puede especificar un artículo.",module,Magento_Wishlist
@@ -6075,7 +6075,7 @@ Password:,Contraseña:,module,Magento_Theme
 "Password you set when creating account","Contraseña que ingresaste al crear la cuenta",module,Magento_Theme
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","¿Olvidaste la contraseña de tu cuenta? Hacé clic <a href=""%reset_url""> aquí</a> para restablecerla.",module,Magento_Theme
 "When you sign in to your account, you will be able to:","Cuando inicie sesión en su cuenta, usted será capaz de:",module,Magento_Theme
-"Proceed through checkout faster","Procede a través del checkout más rápido",module,Magento_Theme
+"Proceed through checkout faster","Proceder a través de pago más rápido",module,Magento_Theme
 "Check the status of orders","Compruebe el estado de pedidos",module,Magento_Theme
 "View past orders","Ver órdenes anteriores",module,Magento_Theme
 "Store alternative addresses (for shipping to multiple family members and friends)","Almacenar direcciones alternativas (para el envío a varios miembros de la familia y amigos)",module,Magento_Theme
@@ -6087,13 +6087,13 @@ Options,Opciones,module,Magento_Ui
 selected,seleccionado,module,Magento_Ui
 of,de,module,Magento_Ui
 Filters,Filtros,module,Magento_Ui
-"Password Reset Confirmation for %name","Confirmación de restablecer contraseña para %name",module,Magento_User
+"Password Reset Confirmation for %name","Confirmación de reinicio de contraseña para %name",module,Magento_User
 "%name,","%nombre,",module,Magento_User
 "There was recently a request to change the password for your account.","Recientemente hubo una solicitud para cambiar la contraseña de su cuenta.",module,Magento_User
 "If you requested this change, reset your password here:","Si solicitó este cambio, cambiar su contraseña aquí:",module,Magento_User
 "If you did not make this request, you can ignore this email and your password will remain the same.","Si no ha realizado esta solicitud, puede ignorar este mensaje y su contraseña seguirá siendo la misma.",module,Magento_User
 "Thank you,","Gracias,",module,Magento_User
-"New %changes for %user_name","Nuevo %changes para %user_name",module,Magento_User
+"New %changes for %user_name","Nuevos %changes para %user_name",module,Magento_User
 "Hello,","Hola,",module,Magento_User
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Hemos recibido una solicitud para cambiar la siguiente información asociada a tu cuenta en %store_name: correo electrónico.",module,Magento_User
 "If you have not authorized this action, please contact us immediately at %store_email","Si usted no ha autorizado esta acción, por favor contáctenos inmediatamente a %store_email",module,Magento_User
