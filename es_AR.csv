@@ -4397,7 +4397,7 @@ Mixed,Mixto,module,Magento_Sales
 "The transaction ""%1"" (%2) is already closed.","La transacción ""%s"" (%s) ya está cerrada.",module,Magento_Sales
 "Set order for existing transactions not allowed","No se le permite configurar un pedido de una transacción existente",module,Magento_Sales
 "At minimum, you need to set a payment ID.","Como mínimo, es necesario establecer una ID de pago.",module,Magento_Sales
-Order,Encargar,module,Magento_Sales
+Order,Pedido,module,Magento_Sales
 Authorization,Autorización,module,Magento_Sales
 "We found an unsupported transaction type ""%1"".","Encontramos un tipo de transacción ""%1"".",module,Magento_Sales
 "Please set a proper payment and order id.","Por favor seleccione una id de pago y orden adecuada.",module,Magento_Sales
@@ -4738,7 +4738,7 @@ Print,Imprimir,module,Magento_Shipping
 "Cannot add new comment.","No se puede agregar un nuevo comentario.",module,Magento_Shipping
 "Please specify a carrier.","Por favor especifique un portador.",module,Magento_Shipping
 "Please enter a tracking number.","Por favor, introduzca un número de seguimiento.",module,Magento_Shipping
-Shipments,Envíos.,module,Magento_Shipping
+Shipments,Envíos,module,Magento_Shipping
 "We can't initialize shipment for adding tracking number.","No podemos iniciar el envío para añadir número de seguimiento.",module,Magento_Shipping
 "Cannot add tracking number.","No se puede agregar el número de seguimiento.",module,Magento_Shipping
 "You created the shipping label.","Ha creado la etiqueta de envío.",module,Magento_Shipping
@@ -5632,7 +5632,7 @@ Apply,Aplicar,module,Magento_Widget
 Page,Página,module,Magento_Widget
 "Wish List","Lista de artículos deseados",module,Magento_Wishlist
 "Wish List Sharing","Compartir favoritos",module,Magento_Wishlist
-"My Wish List","Mi lista de artículos",module,Magento_Wishlist
+"My Wish List","Mi lista de favoritos",module,Magento_Wishlist
 "Page not found.","Página no encontrada.",module,Magento_Wishlist
 "We can't specify a product.","No se puede especificar un artículo.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","No se puede añadir el elemento a lista de favoritos en este momento: %1.",module,Magento_Wishlist
